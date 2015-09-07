@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 set -e
-cd ejemplo_banco
+cd chopper
 bundle install
 bundle exec rake
