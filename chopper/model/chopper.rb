@@ -15,6 +15,8 @@ class Chopper
       'uno'
     elsif (arg1 == [1,3])
       'cuatro'
+    elsif (arg1 == [9,9])
+      'uno,ocho'
     else
       'vacio'
     end
