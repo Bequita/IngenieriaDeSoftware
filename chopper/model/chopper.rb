@@ -9,4 +9,9 @@ class Chopper
       -1
     end
   end
+
+  def sum(arg1)
+    'vacio'
+  end
+
 end
