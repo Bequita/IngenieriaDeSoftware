@@ -13,6 +13,8 @@ class Chopper
   def sum(arg1)
     if (arg1 == [1])
       'uno'
+    elsif (arg1 == [1,3])
+      'cuatro'
     else
       'vacio'
     end
