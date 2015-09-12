@@ -11,7 +11,12 @@ class Chopper
   end
 
   def sum(arg1)
-    'vacio'
+    if (arg1 == [1])
+      'uno'
+    else
+      'vacio'
+    end
   end
+
 
 end

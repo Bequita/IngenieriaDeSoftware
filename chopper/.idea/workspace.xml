@@ -19,8 +19,9 @@
     <SUITE FILE_PATH="coverage/chopper@Run_spec__chopper_spec___chopper.coverage" NAME="Run spec 'chopper_spec': chopper Coverage Results" MODIFIED="1442071469141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="chopper" />
     <SUITE FILE_PATH="coverage/chopper@Chopper_chop_de_3_y_vacio_deberia_ser__1__chopper.coverage" NAME="Chopper chop de 3 y vacio deberia ser -1: chopper Coverage Results" MODIFIED="1442072364668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="chopper" />
     <SUITE FILE_PATH="coverage/chopper@Chopper_chop_de_3_y__0_7_3__deberia_ser_0__chopper.coverage" NAME="Chopper chop de 3 y [0,7,3] deberia ser 0: chopper Coverage Results" MODIFIED="1442072835529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="chopper" />
+    <SUITE FILE_PATH="coverage/chopper@Chopper_sum_de__1__deberia_ser_uno__chopper.coverage" NAME="Chopper sum de [1] deberia ser uno: chopper Coverage Results" MODIFIED="1442073410833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="chopper" />
     <SUITE FILE_PATH="coverage/chopper@Chopper_chop_de_3_y__3__deberia_ser_0__chopper.coverage" NAME="Chopper chop de 3 y [3] deberia ser 0: chopper Coverage Results" MODIFIED="1442072178475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="chopper" />
-    <SUITE FILE_PATH="coverage/chopper@Chopper__chopper.coverage" NAME="Chopper: chopper Coverage Results" MODIFIED="1442073145142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="chopper" />
+    <SUITE FILE_PATH="coverage/chopper@Chopper__chopper.coverage" NAME="Chopper: chopper Coverage Results" MODIFIED="1442073414311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="chopper" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -40,8 +41,8 @@
       <file leaf-file-name="chopper_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/chopper_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71631205">
-              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.44680852">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -51,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/model/chopper.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,8 +63,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spec/chopper_spec.rb" />
         <option value="$PROJECT_DIR$/model/chopper.rb" />
+        <option value="$PROJECT_DIR$/spec/chopper_spec.rb" />
       </list>
     </option>
   </component>
@@ -197,26 +198,6 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="chopper" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="chopper" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/model" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/model/chopper.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
     <configuration default="false" name="Chopper chop de 3 y vacio deberia ser -1: chopper" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="chopper" />
@@ -309,6 +290,40 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Chopper sum de [] deberia ser vacio" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Chopper sum de [1] deberia ser uno: chopper" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="chopper" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/chopper_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Chopper sum de [1] deberia ser uno" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -448,18 +463,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="RSpec.Chopper: chopper" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.chopper" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.Chopper chop de 3 y vacio deberia ser -1: chopper" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.Chopper chop de 3 y [0,7,3] deberia ser 0: chopper" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.Chopper sum de [] deberia ser vacio: chopper" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.Chopper chop de 3 y vacio deberia ser -1: chopper" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.Chopper chop de 3 y [0,7,3] deberia ser 0: chopper" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.Chopper sum de [] deberia ser vacio: chopper" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.Chopper sum de [1] deberia ser uno: chopper" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="RSpec.Chopper: chopper" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Chopper sum de [] deberia ser vacio: chopper" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Chopper chop de 3 y [0,7,3] deberia ser 0: chopper" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.Chopper chop de 3 y vacio deberia ser -1: chopper" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.chopper" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Chopper sum de [1] deberia ser uno: chopper" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Chopper sum de [] deberia ser vacio: chopper" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Chopper chop de 3 y [0,7,3] deberia ser 0: chopper" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.Chopper chop de 3 y vacio deberia ser -1: chopper" />
       </list>
     </recent_temporary>
   </component>
@@ -615,15 +630,15 @@
     <entry file="file://$PROJECT_DIR$/model/chopper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/chopper_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71631205">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.44680852">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding />
         </state>
       </provider>
