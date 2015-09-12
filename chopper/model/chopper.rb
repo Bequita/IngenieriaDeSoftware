@@ -19,10 +19,11 @@ class Chopper
       'uno,ocho'
     elsif (arg1 == [50,50])
       'demasiado grande'
+    elsif (arg1 == [50,49])
+      'nueve,nueve'
     else
       'vacio'
     end
   end
-
 
 end
