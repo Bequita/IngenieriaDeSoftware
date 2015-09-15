@@ -5,19 +5,28 @@ class Chopper
   end
 
   def sum(arg1)
-    if (arg1 == [1])
-      'uno'
-    elsif (arg1 == [1,3])
-      'cuatro'
-    elsif (arg1 == [9,9])
-      'uno,ocho'
-    elsif (arg1 == [50,50])
-      'demasiado grande'
-    elsif (arg1 == [50,49])
-      'nueve,nueve'
-    else
+    aux = 0
+    arg1.each { |n| aux = aux + n }
+
+    decompose_number(aux)
+  end
+
+  def decompose_number(arg1)
+    if arg1 == 0
       'vacio'
+    elsif arg1 >= 100
+      'demasiado grande'
+    elsif arg1 < 10
+      dictionary_number_to_string(arg1)
+    else
+      dictionary_number_to_string(arg1.to_s[0]) + ',' + dictionary_number_to_string(arg1.to_s[1])
     end
+  end
+
+  def dictionary_number_to_string(arg1)
+    hs = {0 => 'cero', 1 => 'uno', 2 => 'dos', 3 => 'tres', 4 => 'cuatro',
+          5 => 'cinco', 6 => 'seis', 7 => 'siete', 8 => 'ocho', 9 => 'nueve'}
+    hs[Integer(arg1)]
   end
 
 end
