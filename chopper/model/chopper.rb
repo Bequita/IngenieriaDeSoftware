@@ -5,16 +5,18 @@ class Chopper
   end
 
   def sum(arg1)
-    aux = 0
-    arg1.each { |n| aux = aux + n }
+    if arg1.eql?([])
+      'vacio'
+    else
+      aux = 0
+      arg1.each { |n| aux = aux + n }
 
-    decompose_number(aux)
+      decompose_number(aux)
+    end
   end
 
   def decompose_number(arg1)
-    if arg1 == 0
-      'vacio'
-    elsif arg1 >= 100
+    if arg1 >= 100
       'demasiado grande'
     elsif arg1 < 10
       dictionary_number_to_string(arg1)
