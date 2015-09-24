@@ -1,0 +1,2 @@
+class Papel
+end
