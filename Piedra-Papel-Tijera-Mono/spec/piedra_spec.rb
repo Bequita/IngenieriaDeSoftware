@@ -19,7 +19,6 @@ describe 'piedra' do
     expect(piedra.contra(papel)).to eq 'Pierde'
   end
 
-=begin
   it 'debe empatar cuando juega contra mono' do
     expect(piedra.contra(mono)).to eq 'Empata'
   end
@@ -27,5 +26,5 @@ describe 'piedra' do
   it 'debe empatar cuando juega contra piedra' do
     expect(piedra.contra(piedra)).to eq 'Empata'
   end
-=end
+
 end

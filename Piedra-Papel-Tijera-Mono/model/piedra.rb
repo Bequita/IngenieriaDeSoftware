@@ -5,7 +5,7 @@ class Piedra
   end
 
   def resultado(elem1)
-    hs = {'Tijera' => 'Gana', 'Papel' => 'Pierde'}
+    hs = {'Tijera' => 'Gana', 'Papel' => 'Pierde', 'Mono' => 'Empata', 'Piedra' => 'Empata'}
 
     hs[elem1.class.name]
   end
