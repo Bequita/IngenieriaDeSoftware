@@ -14,11 +14,12 @@ describe 'piedra' do
   it 'debe ganar cuando juega contra tijera' do
     expect(piedra.contra(tijera)).to eq 'Gana'
   end
-=begin
+
   it 'debe perder cuando juega contra papel' do
     expect(piedra.contra(papel)).to eq 'Pierde'
   end
 
+=begin
   it 'debe empatar cuando juega contra mono' do
     expect(piedra.contra(mono)).to eq 'Empata'
   end
