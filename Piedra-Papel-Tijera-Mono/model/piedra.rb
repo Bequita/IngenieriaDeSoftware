@@ -1,8 +1,6 @@
-class Piedra
+require_relative '../model/elementos'
 
-  def contra(elem1)
-    resultado(elem1)
-  end
+class Piedra < Elementos
 
   def resultado(elem1)
     hs = {'Tijera' => 'Gana', 'Papel' => 'Pierde', 'Mono' => 'Empata', 'Piedra' => 'Empata'}
