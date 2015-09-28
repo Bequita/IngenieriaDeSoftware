@@ -1,7 +1,7 @@
 class Jugador
 
   attr_reader :nombreJugador
-  attr_accessor :elementoJuego
+  attr_reader :elementoJuego
 
   def initialize(nombre)
     @nombreJugador = nombre

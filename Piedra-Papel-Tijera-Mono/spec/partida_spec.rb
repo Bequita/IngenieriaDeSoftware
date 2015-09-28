@@ -19,7 +19,7 @@ describe 'partida' do
   ronda = Ronda.new
   partida = Partida.new(jug1, jug2, ronda)
 
-  context 'primera ronda' do
+  context 'cuando se juega la primera ronda' do
 
     it 'Jugador1 deberia ganar la primer ronda' do
       jug1.elige_elemento(piedra)
@@ -31,6 +31,20 @@ describe 'partida' do
       jug1.elige_elemento(piedra)
       jug2.elige_elemento(tijera)
       expect{partida.jugar_primera_ronda}.to raise_error('La primera ronda ya fue jugada')
+    end
+
+  end
+
+  context 'cuando se juega la segunda ronda' do
+
+    it 'Jugador2 deberia ganar la segunda ronda' do
+      jug1.elige_elemento(papel)
+      jug2.elige_elemento(tijera)
+      expect(partida.jugar_segunda_ronda).to eq ['Jugador2 gana la segunda ronda', 'Hasta el momento no hay ganador de la partida']
+    end
+
+    it 'no se tendria que poder volver a jugar la primer ronda' do
+      expect{partida.jugar_segunda_ronda}.to raise_error('La segunda ronda ya fue jugada')
     end
 
   end
