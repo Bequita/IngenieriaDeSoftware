@@ -13,11 +13,11 @@ class Partida
 
   def jugar_primera_ronda()
     if @rondaActual.eql? 1
-    resultado = ronda.jugar(jugador1, jugador2)
+    resultado_ronda = ronda.jugar(jugador1, jugador2)
     @rondaActual = 2
 
-    sumar_punto_a_jugador(resultado)
-    diccionario_de_rondas(resultado, "primera")
+    sumar_punto_a_jugador(resultado_ronda)
+    diccionario_de_rondas(resultado_ronda, "primera")
     else
       raise 'La primera ronda ya fue jugada'
     end
@@ -25,13 +25,25 @@ class Partida
 
   def jugar_segunda_ronda()
     if @rondaActual.eql? 2
-      resultado = ronda.jugar(jugador1, jugador2)
+      resultado_ronda = ronda.jugar(jugador1, jugador2)
       @rondaActual = 3
 
-      sumar_punto_a_jugador(resultado)
-      estado_partida(resultado, "segunda")
+      sumar_punto_a_jugador(resultado_ronda)
+      estado_partida(resultado_ronda, "segunda")
     else
       raise 'La segunda ronda ya fue jugada'
+    end
+  end
+
+  def jugar_tercera_ronda
+    if @rondaActual.eql? 3
+      resultado_ronda = ronda.jugar(jugador1, jugador2)
+      @rondaActual = 'se terminaron las rondas'
+
+      sumar_punto_a_jugador(resultado_ronda)
+      estado_partida(resultado_ronda, "tercera")
+    else
+      raise 'La tercera ronda ya fue jugada'
     end
   end
 

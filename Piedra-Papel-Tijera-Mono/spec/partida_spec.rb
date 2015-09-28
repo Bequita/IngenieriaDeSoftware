@@ -43,8 +43,22 @@ describe 'partida' do
       expect(partida.jugar_segunda_ronda).to eq ['Jugador2 gana la segunda ronda', 'Hasta el momento no hay ganador de la partida']
     end
 
-    it 'no se tendria que poder volver a jugar la primer ronda' do
+    it 'no se tendria que poder volver a jugar la segunda ronda' do
       expect{partida.jugar_segunda_ronda}.to raise_error('La segunda ronda ya fue jugada')
+    end
+
+  end
+
+  context 'cuando se juega la tercera ronda' do
+
+    it 'Jugador2 deberia ganar la tercer ronda, y la partida' do
+      jug1.elige_elemento(mono)
+      jug2.elige_elemento(tijera)
+      expect(partida.jugar_tercera_ronda).to eq ['Jugador2 gana la tercera ronda', 'Jugador2 gana la partida']
+    end
+
+    it 'no se tendria que poder volver a jugar la tercera ronda' do
+      expect{partida.jugar_tercera_ronda}.to raise_error('La tercera ronda ya fue jugada')
     end
 
   end
