@@ -25,11 +25,11 @@ describe 'ronda' do
     expect(ronda.jugar(jug1,jug2)).to eq 'gana Jugador2'
   end
 
-  # it 'deberian empatar los dos jugadores, si juegan el mismo elemento' do
-  #   jug1.elegir_elemento(elemP)
-  #   jug2.elegir_elemento(elemP)
-  #   expect(ronda.jugar(jug1,jug2)).to eq 'empatan Jugador1 y Jugador2'
-  # end
+  it 'deberian empatar los dos jugadores, si juegan el mismo elemento' do
+    jug1.elegir_elemento(elemP)
+    jug2.elegir_elemento(elemP)
+    expect(ronda.jugar(jug1,jug2)).to eq 'empatan Jugador1 y Jugador2'
+  end
 
 end
 
