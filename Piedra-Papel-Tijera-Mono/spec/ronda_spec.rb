@@ -10,8 +10,8 @@ describe 'ronda' do
   let(:elemP) {Piedra.new}
   let(:elemT) {Tijera.new}
 
-  jug1 = Jugador.new
-  jug2 = Jugador.new
+  jug1 = Jugador.new('Jugador1')
+  jug2 = Jugador.new('Jugador2')
 
   it 'deberia ganar Jugador1, si Jugador1 elige Piedra y Jugador2 elige Tijera' do
     jug1.elegir_elemento(elemP)
