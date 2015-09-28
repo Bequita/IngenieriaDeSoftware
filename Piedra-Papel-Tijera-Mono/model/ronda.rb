@@ -8,7 +8,7 @@ class Ronda
     elsif resultado.eql? 'Pierde'
       "gana #{jugador2.nombreJugador}"
     else
-      "empatan #{jugador1.nombreJugador} y #{jugador2.nombreJugador}"
+      "empatan los dos jugadores"
     end
   end
 

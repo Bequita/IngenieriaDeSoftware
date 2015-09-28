@@ -10,8 +10,8 @@ describe 'ronda' do
   let(:elemP) {Piedra.new}
   let(:elemT) {Tijera.new}
 
-  jug1 = Jugador.new('Jugador1')
-  jug2 = Jugador.new('Jugador2')
+  let(:jug1) {Jugador.new('Jugador1')}
+  let(:jug2) {Jugador.new('Jugador2')}
 
   it 'deberia ganar Jugador1, si Jugador1 elige Piedra y Jugador2 elige Tijera' do
     jug1.elige_elemento(elemP)
@@ -28,7 +28,7 @@ describe 'ronda' do
   it 'deberian empatar los dos jugadores, si juegan el mismo elemento' do
     jug1.elige_elemento(elemP)
     jug2.elige_elemento(elemP)
-    expect(ronda.jugar(jug1,jug2)).to eq 'empatan Jugador1 y Jugador2'
+    expect(ronda.jugar(jug1,jug2)).to eq 'empatan los dos jugadores'
   end
 
 end
