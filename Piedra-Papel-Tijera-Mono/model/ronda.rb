@@ -1,6 +1,6 @@
 class Ronda
 
-  def jugar_ronda(jugador1, jugador2)
+  def jugar(jugador1, jugador2)
     resultado = jugador1.elementoJuego.contra(jugador2.elementoJuego)
 
     if resultado.eql? 'Gana'
