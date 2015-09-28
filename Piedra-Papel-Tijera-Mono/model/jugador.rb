@@ -7,7 +7,7 @@ class Jugador
     @nombreJugador = nombre
   end
 
-  def elegir_elemento(elemento_juego)
+  def elige_elemento(elemento_juego)
     @elementoJuego = elemento_juego
   end
 
