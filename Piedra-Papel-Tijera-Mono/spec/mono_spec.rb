@@ -12,19 +12,19 @@ describe 'mono' do
   let(:mono)   {Mono.new}
 
   it 'debe empatar cuando juega contra piedra' do
-    expect(mono.contra(piedra)).to eq 'Empata'
+    expect(mono.contra(piedra)).to eq :EMPATA
   end
 
   it 'debe perder cuando juega contra tijera' do
-    expect(mono.contra(tijera)).to eq 'Pierde'
+    expect(mono.contra(tijera)).to eq :PIERDE
   end
 
   it 'debe ganar cuando juega contra papel' do
-    expect(mono.contra(papel)).to eq 'Gana'
+    expect(mono.contra(papel)).to eq :GANA
   end
 
   it 'debe empatar cuando juega contra mono' do
-    expect(mono.contra(mono)).to eq 'Empata'
+    expect(mono.contra(mono)).to eq :EMPATA
   end
 
 end

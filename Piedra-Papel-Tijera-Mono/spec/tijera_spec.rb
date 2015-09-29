@@ -12,19 +12,19 @@ describe 'tijera' do
   let(:mono)   {Mono.new}
 
   it 'debe ganar cuando juega contra papel' do
-    expect(tijera.contra(papel)).to eq 'Gana'
+    expect(tijera.contra(papel)).to eq :GANA
   end
 
   it 'debe perder cuando juega contra piedra' do
-    expect(tijera.contra(piedra)).to eq 'Pierde'
+    expect(tijera.contra(piedra)).to eq :PIERDE
   end
 
   it 'debe ganar cuando juega contra mono' do
-    expect(tijera.contra(mono)).to eq 'Gana'
+    expect(tijera.contra(mono)).to eq :GANA
   end
 
   it 'debe empatar cuando juega contra tijera' do
-    expect(tijera.contra(tijera)).to eq 'Empata'
+    expect(tijera.contra(tijera)).to eq :EMPATA
   end
 
 end

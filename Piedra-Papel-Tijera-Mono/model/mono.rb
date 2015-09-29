@@ -3,9 +3,10 @@ require_relative '../model/elementos'
 class Mono < Elementos
 
   def resultado(elem1)
-    hs = {'Piedra' => 'Empata', 'Tijera' => 'Pierde', 'Papel' => 'Gana', 'Mono' => 'Empata'}
+    hs = { :Tijera => :PIERDE, :Papel => :GANA}
+    hs.default = :EMPATA
 
-    hs[elem1.class.name]
+    hs[elem1.class.name.to_sym]
   end
 
 end

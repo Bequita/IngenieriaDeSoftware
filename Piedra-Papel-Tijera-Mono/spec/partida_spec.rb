@@ -1,6 +1,5 @@
 require 'rspec'
 require_relative '../model/partida'
-require_relative'../model/ronda'
 require_relative'../model/jugador'
 require_relative'../model/piedra'
 require_relative'../model/tijera'
@@ -16,8 +15,7 @@ describe 'partida' do
 
   jug1 = Jugador.new('Jugador1')
   jug2 = Jugador.new('Jugador2')
-  ronda = Ronda.new
-  partida = Partida.new(jug1, jug2, ronda)
+  partida = Partida.new(jug1, jug2)
 
   context 'cuando se juega la primera ronda' do
 

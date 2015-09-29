@@ -12,19 +12,19 @@ describe 'piedra' do
   let(:mono)   {Mono.new}
 
   it 'debe ganar cuando juega contra tijera' do
-    expect(piedra.contra(tijera)).to eq 'Gana'
+    expect(piedra.contra(tijera)).to eq :GANA
   end
 
   it 'debe perder cuando juega contra papel' do
-    expect(piedra.contra(papel)).to eq 'Pierde'
+    expect(piedra.contra(papel)).to eq :PIERDE
   end
 
   it 'debe empatar cuando juega contra mono' do
-    expect(piedra.contra(mono)).to eq 'Empata'
+    expect(piedra.contra(mono)).to eq :EMPATA
   end
 
   it 'debe empatar cuando juega contra piedra' do
-    expect(piedra.contra(piedra)).to eq 'Empata'
+    expect(piedra.contra(piedra)).to eq :EMPATA
   end
 
 end
