@@ -22,11 +22,7 @@ describe 'partida' do
     it 'Jugador1 deberia ganar la primer ronda' do
       jug1.elige_elemento(piedra)
       jug2.elige_elemento(tijera)
-      expect(partida.jugar_primera_ronda).to eq 'Jugador1 gana la primera ronda'
-    end
-
-    it 'no se tendria que poder volver a jugar la primer ronda' do
-      expect{partida.jugar_primera_ronda}.to raise_error('La primera ronda ya fue jugada')
+      expect(partida.jugar_ronda).to eq ['Jugador1 gana la primera ronda', 'Hasta el momento no hay ganador de la partida']
     end
 
   end
@@ -36,11 +32,7 @@ describe 'partida' do
     it 'Jugador2 deberia ganar la segunda ronda' do
       jug1.elige_elemento(papel)
       jug2.elige_elemento(tijera)
-      expect(partida.jugar_segunda_ronda).to eq ['Jugador2 gana la segunda ronda', 'Hasta el momento no hay ganador de la partida']
-    end
-
-    it 'no se tendria que poder volver a jugar la segunda ronda' do
-      expect{partida.jugar_segunda_ronda}.to raise_error('La segunda ronda ya fue jugada')
+      expect(partida.jugar_ronda).to eq ['Jugador2 gana la segunda ronda', 'Hasta el momento no hay ganador de la partida']
     end
 
   end
@@ -50,11 +42,15 @@ describe 'partida' do
     it 'Jugador2 deberia ganar la tercer ronda, y la partida' do
       jug1.elige_elemento(mono)
       jug2.elige_elemento(tijera)
-      expect(partida.jugar_tercera_ronda).to eq ['Jugador2 gana la tercera ronda', 'Jugador2 gana la partida']
+      expect(partida.jugar_ronda).to eq ['Jugador2 gana la tercera ronda', 'Jugador2 gana la partida']
     end
 
-    it 'no se tendria que poder volver a jugar la tercera ronda' do
-      expect{partida.jugar_tercera_ronda}.to raise_error('La tercera ronda ya fue jugada')
+  end
+
+  context 'cuando se quiere jugar una cuarta ronda' do
+
+    it 'deberia lanzar una excepcion de numero maximo de rondas jugadas'  do
+      expect{partida.jugar_ronda}.to raise_error('Ya se jugaron todas las rondas')
     end
 
   end
