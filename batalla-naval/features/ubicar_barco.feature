@@ -5,21 +5,20 @@ Feature: ubicar un barco
 
   Background:
     Given Una batalla naval
-    And   Un usuario
 
   Scenario: Ubico mi barco exitosamente
-    Given Selecciono un barco para ubicar
-    When  Lo ubico
+    Given Un tablero
+    When  Quiero ubicar un barco
     Then  El barco ocupa una posicion en el tablero
 
   @wip
   Scenario: No se puede ubicar un barco en una posición ya ocupada
-    Given Selecciono un barco para ubicar
-    When  Lo ubico
+    Given Un tablero
+    When  Quiero ubicar un barco
     Then  El barco no se puede ubicar
 
   @wip
   Scenario: No puedo ubicar mi barco en una posición fuera del tablero
-    Given Selecciono un barco para ubicar
-    When  Lo ubico
+    Given Un tablero
+    When  Quiero ubicar un barco
     Then  El barco no se puede ubicar

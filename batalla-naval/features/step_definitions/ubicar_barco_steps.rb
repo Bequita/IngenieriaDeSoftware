@@ -4,14 +4,13 @@ Given(/^Una batalla naval$/) do
   @batalla_naval = BatallaNaval.new
 end
 
-Given(/^Un usuario$/) do
-  @jugador = @batalla_naval.jugador1
+Given(/^Un tablero$/) do
+  @tablero = @batalla_naval.tablero
 end
 
-Given(/^Selecciono un barco para ubicar$/) do
-end
-
-When(/^Lo ubico$/) do
+When(/^Quiero ubicar un barco$/) do
+  # @barco = Barco.new(1)
+  # @batalla_naval.ubicarBarco(@barco)
 end
 
 Then(/^El barco ocupa una posicion en el tablero$/) do

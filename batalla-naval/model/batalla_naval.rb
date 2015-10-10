@@ -1,10 +1,9 @@
 class BatallaNaval
 
-  attr_reader :jugador1, :jugador2
+  attr_reader :tablero
 
   def initialize()
-    @jugador1 = :jug1
-    @jugador2 = :jug2
+    @tablero = :tab
   end
 
 end
