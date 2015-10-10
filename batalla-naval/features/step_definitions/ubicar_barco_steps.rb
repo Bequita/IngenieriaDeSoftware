@@ -5,6 +5,7 @@ Given(/^Una batalla naval$/) do
 end
 
 Given(/^Un usuario$/) do
+  @jugador = @batalla_naval.jugador1
 end
 
 Given(/^Selecciono un barco para ubicar$/) do
