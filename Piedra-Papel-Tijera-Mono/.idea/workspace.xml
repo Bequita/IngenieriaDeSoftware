@@ -14,7 +14,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@mono_debe_empatar_cuando_juega_contra_piedra__Piedra_Papel_Tijera_Mono.coverage" NAME="mono debe empatar cuando juega contra piedra: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443153077532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
+    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@mono_debe_empatar_cuando_juega_contra_piedra__Piedra_Papel_Tijera_Mono.coverage" NAME="mono debe empatar cuando juega contra piedra: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443669764250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@ronda_deberian_empatar_los_dos_jugadores__si_juegan_el_mismo_elemento__Piedra_Papel_Tijera_Mono.coverage" NAME="ronda deberian empatar los dos jugadores, si juegan el mismo elemento: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443460869031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@partida_cuando_se_juega_la_tercera_ronda_Jugador2_deberia_ganar_la_tercer_ronda__y_la_partida__Piedra_Papel_Tijera_Mono.coverage" NAME="partida cuando se juega la tercera ronda Jugador2 deberia ganar la tercer ronda, y la partida: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443627314420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@piedra_debe_perder_cuando_juega_contra_papel__Piedra_Papel_Tijera_Mono.coverage" NAME="piedra debe perder cuando juega contra papel: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443122785155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
@@ -29,10 +29,10 @@
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@jugador.coverage" NAME="jugador Coverage Results" MODIFIED="1443410122646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@papel_debe_perder_cuando_juega_contra_tijera__Piedra_Papel_Tijera_Mono.coverage" NAME="papel debe perder cuando juega contra tijera: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443148740266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@partida_Jugador1_deberia_ganar_la_primer_ronda__Piedra_Papel_Tijera_Mono.coverage" NAME="partida Jugador1 deberia ganar la primer ronda: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443418098127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
-    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@Run_spec__mono_spec___Piedra_Papel_Tijera_Mono.coverage" NAME="Run spec 'mono_spec': Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443627671141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
-    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@mono__Piedra_Papel_Tijera_Mono.coverage" NAME="mono: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443498487690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
+    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@Run_spec__mono_spec___Piedra_Papel_Tijera_Mono.coverage" NAME="Run spec 'mono_spec': Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1444508499835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
+    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@mono__Piedra_Papel_Tijera_Mono.coverage" NAME="mono: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443671529922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@partida_cuando_se_juega_la_segunda_ronda_Jugador2_deberia_ganar_la_segunda_ronda__Piedra_Papel_Tijera_Mono.coverage" NAME="partida cuando se juega la segunda ronda Jugador2 deberia ganar la segunda ronda: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443454311069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
-    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@Run_spec__piedra_spec___Piedra_Papel_Tijera_Mono.coverage" NAME="Run spec 'piedra_spec': Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443627677556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
+    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@Run_spec__piedra_spec___Piedra_Papel_Tijera_Mono.coverage" NAME="Run spec 'piedra_spec': Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1444508507202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@partida_empatada_cuando_se_juega_la_segunda_ronda_Jugador2_deberia_ganar_la_segunda_ronda__Piedra_Papel_Tijera_Mono.coverage" NAME="partida empatada cuando se juega la segunda ronda Jugador2 deberia ganar la segunda ronda: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443627606592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@tijera_debe_ganar_cuando_juega_contra_papel__Piedra_Papel_Tijera_Mono.coverage" NAME="tijera debe ganar cuando juega contra papel: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443147399093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@papel_debe_perder_cuando_juega_contra_mono__Piedra_Papel_Tijera_Mono.coverage" NAME="papel debe perder cuando juega contra mono: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443148766759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
@@ -40,17 +40,17 @@
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@partida_cuando_se_juega_la_segunda_ronda__Piedra_Papel_Tijera_Mono.coverage" NAME="partida cuando se juega la segunda ronda: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443495983589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@mono.coverage" NAME="mono Coverage Results" MODIFIED="1443498159727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@Run_spec__Prueba_spec___Piedra_Papel_Tijera_Mono.coverage" NAME="Run spec 'Prueba_spec': Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443116229609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
-    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@Run_spec__partida_empatada_spec___Piedra_Papel_Tijera_Mono.coverage" NAME="Run spec 'partida_empatada_spec': Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443627674535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
+    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@Run_spec__partida_empatada_spec___Piedra_Papel_Tijera_Mono.coverage" NAME="Run spec 'partida_empatada_spec': Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1444508504476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@papel__Piedra_Papel_Tijera_Mono.coverage" NAME="papel: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443148801315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
-    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@Run_spec__tijera_spec___Piedra_Papel_Tijera_Mono.coverage" NAME="Run spec 'tijera_spec': Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443627679143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
-    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@Run_spec__jugador_spec___Piedra_Papel_Tijera_Mono.coverage" NAME="Run spec 'jugador_spec': Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443627669400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
-    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@All_tests_in_spec__Piedra_Papel_Tijera_Mono.coverage" NAME="All tests in spec: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443496823597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
+    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@Run_spec__tijera_spec___Piedra_Papel_Tijera_Mono.coverage" NAME="Run spec 'tijera_spec': Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1444508508715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
+    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@Run_spec__jugador_spec___Piedra_Papel_Tijera_Mono.coverage" NAME="Run spec 'jugador_spec': Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1444508497065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
+    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@All_tests_in_spec__Piedra_Papel_Tijera_Mono.coverage" NAME="All tests in spec: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1444508489180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@ronda_segundo_test__Piedra_Papel_Tijera_Mono.coverage" NAME="ronda segundo test: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443412242091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@partida_cuando_se_juega_la_primera_ronda_no_se_tendria_que_poder_volver_a_jugar_la_primer_ronda__Piedra_Papel_Tijera_Mono.coverage" NAME="partida cuando se juega la primera ronda no se tendria que poder volver a jugar la primer ronda: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443455740719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@Run_spec__ronda_spec___Piedra_Papel_Tijera_Mono.coverage" NAME="Run spec 'ronda_spec': Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443492914680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@partida_primera_ronda_no_se_tendria_que_poder_volver_a_jugar_la_primer_ronda__Piedra_Papel_Tijera_Mono.coverage" NAME="partida primera ronda no se tendria que poder volver a jugar la primer ronda: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443418537828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@partida_cuando_se_juega_la_primera_ronda__Piedra_Papel_Tijera_Mono.coverage" NAME="partida cuando se juega la primera ronda: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443495979262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
-    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@Run_spec__papel_spec___Piedra_Papel_Tijera_Mono.coverage" NAME="Run spec 'papel_spec': Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443627672604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
+    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@Run_spec__papel_spec___Piedra_Papel_Tijera_Mono.coverage" NAME="Run spec 'papel_spec': Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1444508502904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@mono_debe_perder_cuando_juega_contra_tijera__Piedra_Papel_Tijera_Mono.coverage" NAME="mono debe perder cuando juega contra tijera: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443498400900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@mono_debe_ganar_cuando_juega_contra_papel__Piedra_Papel_Tijera_Mono.coverage" NAME="mono debe ganar cuando juega contra papel: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443149259236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@jugador_el_nombre_del_primer_jugador_deberia_ser_Jugador1__Piedra_Papel_Tijera_Mono.coverage" NAME="jugador el nombre del primer jugador deberia ser Jugador1: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443409562541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
@@ -68,7 +68,7 @@
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@jugador_el_nombre_del_segundo_jugador_deberia_ser_Jugador2__Piedra_Papel_Tijera_Mono.coverage" NAME="jugador el nombre del segundo jugador deberia ser Jugador2: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443226469445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@prueba.coverage" NAME="prueba Coverage Results" MODIFIED="1443151442073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@partida_empatada__Piedra_Papel_Tijera_Mono.coverage" NAME="partida empatada: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443495128013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
-    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@Run_spec__partida_spec___Piedra_Papel_Tijera_Mono.coverage" NAME="Run spec 'partida_spec': Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443627675999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
+    <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@Run_spec__partida_spec___Piedra_Papel_Tijera_Mono.coverage" NAME="Run spec 'partida_spec': Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1444508505820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@tijera__Piedra_Papel_Tijera_Mono.coverage" NAME="tijera: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443147855561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@partida_primera_ronda_Jugador1_deberia_ganar_la_primer_ronda__Piedra_Papel_Tijera_Mono.coverage" NAME="partida primera ronda Jugador1 deberia ganar la primer ronda: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443418535538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
     <SUITE FILE_PATH="coverage/Piedra-Papel-Tijera-Mono@partida_empatada_cuando_se_juega_la_tercera_ronda_la_partida_deberia_terminar_empatada__Piedra_Papel_Tijera_Mono.coverage" NAME="partida empatada cuando se juega la tercera ronda la partida deberia terminar empatada: Piedra-Papel-Tijera-Mono Coverage Results" MODIFIED="1443460493548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Piedra-Papel-Tijera-Mono" />
@@ -118,14 +118,14 @@
         <option value="$PROJECT_DIR$/spec/papel_spec.rb" />
         <option value="$PROJECT_DIR$/spec/piedra_spec.rb" />
         <option value="$PROJECT_DIR$/spec/tijera_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/mono_spec.rb" />
-        <option value="$PROJECT_DIR$/model/mono.rb" />
-        <option value="$PROJECT_DIR$/model/tijera.rb" />
-        <option value="$PROJECT_DIR$/model/piedra.rb" />
-        <option value="$PROJECT_DIR$/model/papel.rb" />
         <option value="$PROJECT_DIR$/spec/partida_NUEVA_spec.rb" />
         <option value="$PROJECT_DIR$/model/partida.rb" />
         <option value="$PROJECT_DIR$/spec/partida_empatada_spec.rb" />
+        <option value="$PROJECT_DIR$/model/piedra.rb" />
+        <option value="$PROJECT_DIR$/model/tijera.rb" />
+        <option value="$PROJECT_DIR$/model/papel.rb" />
+        <option value="$PROJECT_DIR$/spec/mono_spec.rb" />
+        <option value="$PROJECT_DIR$/model/mono.rb" />
       </list>
     </option>
   </component>
@@ -164,6 +164,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,47 +173,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Piedra-Papel-Tijera-Mono" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Piedra-Papel-Tijera-Mono" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Piedra-Papel-Tijera-Mono" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Piedra-Papel-Tijera-Mono" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Piedra-Papel-Tijera-Mono" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Piedra-Papel-Tijera-Mono" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -226,40 +188,6 @@
     <property name="SearchEverywhereHistoryKey" value="mon&#9;FILE&#9;file:///home/matutee/git/IngenieriaDeSoftware/Piedra-Papel-Tijera-Mono/model/mono.rb" />
   </component>
   <component name="RunManager" selected="RSpec.Run spec 'tijera_spec': Piedra-Papel-Tijera-Mono">
-    <configuration default="false" name="Run spec 'partida_empatada_spec': Piedra-Papel-Tijera-Mono" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="Piedra-Papel-Tijera-Mono" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/partida_empatada_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="Run spec 'mono_spec': Piedra-Papel-Tijera-Mono" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="Piedra-Papel-Tijera-Mono" />
@@ -281,6 +209,40 @@
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/mono_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Run spec 'partida_empatada_spec': Piedra-Papel-Tijera-Mono" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="Piedra-Papel-Tijera-Mono" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/partida_empatada_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
@@ -547,8 +509,8 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in spec: Piedra-Papel-Tijera-Mono" />
       <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'partida_spec': Piedra-Papel-Tijera-Mono" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'partida_empatada_spec': Piedra-Papel-Tijera-Mono" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'mono_spec': Piedra-Papel-Tijera-Mono" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'mono_spec': Piedra-Papel-Tijera-Mono" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'partida_empatada_spec': Piedra-Papel-Tijera-Mono" />
       <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'papel_spec': Piedra-Papel-Tijera-Mono" />
       <item index="5" class="java.lang.String" itemvalue="RSpec.Run spec 'piedra_spec': Piedra-Papel-Tijera-Mono" />
       <item index="6" class="java.lang.String" itemvalue="RSpec.Run spec 'tijera_spec': Piedra-Papel-Tijera-Mono" />
@@ -591,18 +553,18 @@
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18939394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37333333" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3748148" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -642,7 +604,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -658,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,20 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9716312">
           <caret line="762" column="28" selection-start-line="762" selection-start-column="28" selection-end-line="762" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.0/gems/rspec-core-2.99.1/lib/rspec/core/command_line.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.0/gems/rspec-core-2.99.1/lib/rspec/core/reporter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -765,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,70 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.0/gems/rspec-core-2.99.1/lib/rspec/core/memoized_helpers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="262" column="0" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.0/gems/rspec-expectations-2.99.1/lib/rspec/expectations/syntax.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.0/gems/rspec-expectations-2.99.1/lib/rspec/matchers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="398" column="0" selection-start-line="398" selection-start-column="0" selection-end-line="398" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.0/gems/rspec-expectations-2.99.1/lib/rspec/expectations/expectation_target.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.0/gems/rspec-core-2.99.1/lib/rspec/core/example.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.0/gems/rspec-core-2.99.1/lib/rspec/core/example_group.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="514" column="0" selection-start-line="514" selection-start-column="0" selection-end-line="514" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/tijera.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2284264">
-          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/papel.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36548224">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,21 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/mono.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/mono_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13231552">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/jugador_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45801526">
@@ -901,7 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27480915">
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -909,15 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0458015">
           <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/partida_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.28244275">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -925,15 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36641222">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/piedra.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36641222">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -941,7 +788,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.90839696">
           <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/partida_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.0/gems/rspec-core-2.99.1/lib/rspec/core/memoized_helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.0/gems/rspec-expectations-2.99.1/lib/rspec/matchers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19379845">
+          <caret line="398" column="0" selection-start-line="398" selection-start-column="0" selection-end-line="398" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.0/gems/rspec-expectations-2.99.1/lib/rspec/expectations/expectation_target.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19379845">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.0/gems/rspec-core-2.99.1/lib/rspec/core/example.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19379845">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.0/gems/rspec-core-2.99.1/lib/rspec/core/example_group.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19379845">
+          <caret line="503" column="0" selection-start-line="503" selection-start-column="0" selection-end-line="503" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.0/gems/rspec-core-2.99.1/lib/rspec/core/command_line.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21860465">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.0/gems/rspec-core-2.99.1/lib/rspec/core/reporter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19379845">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.0/gems/rspec-expectations-2.99.1/lib/rspec/expectations/syntax.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19379845">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/mono_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/mono.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2366412">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/piedra.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5038168">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/tijera.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5496183">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/papel.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5038168">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>

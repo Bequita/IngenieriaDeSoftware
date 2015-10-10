@@ -7,3 +7,7 @@ cd ..
 cd Piedra-Papel-Tijera-Mono
 bundle install
 bundle exec rake
+cd ..
+cd batalla-naval
+bundle install
+bundle exec rake

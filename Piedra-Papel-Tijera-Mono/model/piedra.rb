@@ -9,4 +9,8 @@ class Piedra < Elementos
     hs[elem1.class.name.to_sym]
   end
 
+  def vence_a_mono(elem)
+    elem.es_empatado
+  end
+
 end
