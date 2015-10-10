@@ -1,3 +1,12 @@
+require_relative '../../model/batalla_naval'
+
+Given(/^Una batalla naval$/) do
+  @batalla_naval = BatallaNaval.new
+end
+
+Given(/^Un usuario$/) do
+end
+
 Given(/^Selecciono un barco para ubicar$/) do
 end
 

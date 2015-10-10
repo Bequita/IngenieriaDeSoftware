@@ -3,7 +3,10 @@ Feature: ubicar un barco
   quiero ubicar mis barcos
   para jugar a la batalla naval
 
-  @wip
+  Background:
+    Given Una batalla naval
+    And   Un usuario
+
   Scenario: Ubico mi barco exitosamente
     Given Selecciono un barco para ubicar
     When  Lo ubico
