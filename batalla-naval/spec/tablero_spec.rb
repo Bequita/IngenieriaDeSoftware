@@ -24,6 +24,10 @@ describe 'tablero' do
       expect(tablero.lista_celdas[2][0].id_celda).to eq [2,0]
     end
 
+    it 'deberia retornar la celda con posicion [3,5]' do
+      expect(tablero.obtener_celda('d5').coordenada_celda).to eq [3,5]
+    end
+
   end
 
 end

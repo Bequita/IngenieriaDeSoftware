@@ -1,10 +1,10 @@
 class Celda
 
-  attr_reader :id_celda, :estado
+  attr_reader :coordenada_celda, :estado
 
-  def initialize(id)
+  def initialize(coord)
     @estado = 'libre'
-    @id_celda = id
+    @coordenada_celda = coord
   end
 
 end
