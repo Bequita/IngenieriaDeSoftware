@@ -1,9 +1,11 @@
+require_relative '../model/tablero'
+
 class BatallaNaval
 
   attr_reader :tablero
 
   def initialize()
-    @tablero = :tab
+    @tablero = Tablero.new
   end
 
 end

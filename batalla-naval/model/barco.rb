@@ -2,18 +2,18 @@ class Barco
 
   attr_reader :tamanio, :nombre
 
-  def initialize(tam)
-    @tamanio = tam
-    @nombre = nombrar_barco(tam)
+  def initialize(nom)
+    @nombre = nom
+    @tamanio = tamanio_barco(nom)
   end
 
-  def nombrar_barco(tam)
-    hs = {1 => 'balsa', 3 => 'semirapido', 5 => 'acorazado'}
+  def tamanio_barco(nom)
+    hs = {:submarino => 1, :crucero => 2, :destructor => 3}
 
-    if hs[tam] != nil
-      hs[tam]
+    if hs[nom] != nil
+      hs[nom]
     elsif
-      raise 'No se puede crear un barco de ese tamanio'
+      raise 'No se puede crear un barco con ese nombre'
     end
   end
 
