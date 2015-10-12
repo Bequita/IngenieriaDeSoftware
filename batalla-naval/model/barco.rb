@@ -22,11 +22,13 @@ class Barco
   def restar_sector
     @sectores_activos -= 1
     if @sectores_activos.eql? 0
-      cambiar_estado
+      hundir_barco
+    else
+      @estado_barco = 'golpeado'
     end
   end
 
-  def cambiar_estado
+  def hundir_barco
     @estado_barco = 'hundido'
   end
 

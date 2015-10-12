@@ -39,7 +39,7 @@ describe 'barco' do
 
       barco.restar_sector
       expect(barco.sectores_activos).to eq 1
-      expect(barco.estado_barco).to eq 'activo'
+      expect(barco.estado_barco).to eq 'golpeado'
 
       barco.restar_sector
       expect(barco.sectores_activos).to eq 0

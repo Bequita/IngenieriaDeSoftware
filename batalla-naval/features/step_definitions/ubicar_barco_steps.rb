@@ -9,9 +9,9 @@ When(/^Ubico un barco destructor en la posicion a3$/) do
 end
 
 Then(/^El barco destructor ocupa 3 posiciones en el tablero, a3 a4 a5$/) do
-  @estado_celda_a3 = @batalla_naval.consultar_estado_en('a3')
-  @estado_celda_a4 = @batalla_naval.consultar_estado_en('a4')
-  @estado_celda_a5 = @batalla_naval.consultar_estado_en('a5')
+  @estado_celda_a3 = @batalla_naval.tablero.obtener_celda('a3').estado
+  @estado_celda_a4 = @batalla_naval.tablero.obtener_celda('a4').estado
+  @estado_celda_a5 = @batalla_naval.tablero.obtener_celda('a5').estado
 
   expect(@estado_celda_a3).to eq 'ocupada'
   expect(@estado_celda_a4).to eq 'ocupada'

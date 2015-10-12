@@ -22,9 +22,19 @@ describe 'batalla naval' do
     it 'deberian estar ocupadas esas celdas' do
       batalla_naval.poner_barco('a3', 'destructor', :vertical)
 
-      expect(batalla_naval.consultar_estado_en('a3')).to eq 'ocupada'
-      expect(batalla_naval.consultar_estado_en('b3')).to eq 'ocupada'
-      expect(batalla_naval.consultar_estado_en('c3')).to eq 'ocupada'
+      expect(batalla_naval.tablero.obtener_celda('a3').estado).to eq 'ocupada'
+      expect(batalla_naval.tablero.obtener_celda('b3').estado).to eq 'ocupada'
+      expect(batalla_naval.tablero.obtener_celda('c3').estado).to eq 'ocupada'
+    end
+
+  end
+
+  context 'cuando quiero disparar a un barco enemigo' do
+
+    it 'deberia tocar agua' do
+      batalla_naval.disparar('a3')
+
+      expect(batalla_naval.consultar_estado_en('a3')).to eq :agua
     end
 
   end

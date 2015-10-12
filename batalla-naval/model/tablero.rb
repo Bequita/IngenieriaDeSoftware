@@ -139,5 +139,23 @@ class Tablero
     end
   end
 
+  def consultar_estado_celda(coordenada)
+    celda = obtener_celda(coordenada)
+
+    if celda.esta_ocupada?
+      celda.barco_ocupante.estado_barco
+    else
+      :agua
+    end
+  end
+
+  def disparar_en_celda(coordenada)
+    celda = obtener_celda(coordenada)
+
+    if celda.esta_ocupada? && !celda.fue_impactada
+      celda.impactar_celda
+    end
+  end
+
 end
 
