@@ -1,11 +1,12 @@
 require_relative 'celda'
+require_relative '../model/barco'
 
 class Tablero
 
   attr_reader :lista_celdas
 
   def initialize
-    @lista_celdas = crear_matriz_celdas()
+    @lista_celdas = crear_matriz_celdas
   end
 
   def crear_matriz_celdas()
@@ -39,4 +40,106 @@ class Tablero
     hs[letraFila]
   end
 
+  def siguiente_fila(letraFila)
+    hs = {'a' => 'b', 'b' => 'c', 'c' => 'd', 'd' => 'e', 'e' => 'f', 'f' => 'g', 'g' => 'h', 'h' => 'i', 'i' => 'j'}
+
+    hs[letraFila]
+  end
+
+  def ubicar_barco(coordenada, barco, direccion)
+    if se_puede_ubicar_el_barco?(coordenada, barco.tamanio, direccion)
+      cambiar_estado_celdas(coordenada, barco.tamanio, direccion)
+    end
+  end
+
+  def se_puede_ubicar_el_barco?(coordenada, tamanio_barco, direccion)
+    if no_se_cae_del_tablero(coordenada, tamanio_barco, direccion)
+      if direccion.eql? :horizontal
+        !celdas_horizontales_ocupadas?(coordenada, tamanio_barco)
+      elsif direccion.eql? :vertical
+        !celdas_verticales_ocupadas?(coordenada, tamanio_barco)
+      end
+    else
+      raise 'La coordenada cae fuera del tablero'
+    end
+  end
+
+  def no_se_cae_del_tablero(coordenada, tamanio_barco, direccion)
+    if direccion.eql? :horizontal
+      posicion_final = Integer(coordenada[1]) + tamanio_barco
+      posicion_final <= 10
+    else
+      posicion_final = dic_fila_a_numero_de_fila(coordenada[0]) + tamanio_barco
+      posicion_final <= 10
+    end
+  end
+
+  def celdas_horizontales_ocupadas?(coordenada, tamanio_barco)
+    while tamanio_barco > 0
+      celda_actual = obtener_celda(coordenada)
+      if celda_actual.estado.eql? 'ocupada'
+        return true
+      end
+
+      coordenada = "#{coordenada[0]}#{Integer(coordenada[1]) + 1}"
+      tamanio_barco -= 1
+    end
+
+    false
+  end
+
+  def celdas_verticales_ocupadas?(coordenada, tamanio_barco)
+    while tamanio_barco > 0
+      celda_actual = obtener_celda(coordenada)
+      if celda_actual.estado.eql? 'ocupada'
+        return true
+      end
+
+      coordenada = "#{siguiente_fila(coordenada[0])}#{coordenada[1]}"
+      tamanio_barco -= 1
+    end
+
+    false
+  end
+
+  def cambiar_estado_celdas(coordenada, tamanio_barco, direccion)
+    if direccion.eql? :horizontal
+      cambiar_estado_celdas_horizontal(coordenada, tamanio_barco)
+    else
+      cambiar_estado_celdas_vertical(coordenada, tamanio_barco)
+    end
+  end
+
+  def cambiar_estado_celdas_horizontal(coordenada, tamanio_barco)
+    while tamanio_barco > 0
+      celda = obtener_celda(coordenada)
+      celda.cambiar_estado
+
+      coordenada = "#{coordenada[0]}#{Integer(coordenada[1]) + 1}"
+      tamanio_barco -= 1
+    end
+  end
+
+  def cambiar_estado_celdas_vertical(coordenada, tamanio_barco)
+    while tamanio_barco > 0
+      celda = obtener_celda(coordenada)
+      celda.cambiar_estado
+
+      coordenada = "#{siguiente_fila(coordenada[0])}#{coordenada[1]}"
+      tamanio_barco -= 1
+    end
+  end
+
 end
+
+# while tamanio_barco > 0
+#   celda = obtener_celda(coordenada)
+#   celda.cambiar_estado
+#
+#   coordenada = "#{coordenada[0]}#{coordenada[1] + 1}"
+#   tamanio_barco -= 1
+# end
+# elsif direccion.eql? :vertical
+# # pass
+# end
+
