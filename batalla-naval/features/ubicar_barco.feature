@@ -13,7 +13,6 @@ Feature: ubicar un barco
     When  Ubico un barco crucero en la posicion f5
     Then  El barco no se puede ubicar, porque ya hay un barco en esa posicion
 
-  @wip
   Scenario: No puedo ubicar mi barco en una posición fuera del tablero
     Given Una batalla naval
     When  Ubico un barco en la posicion k5
