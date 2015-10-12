@@ -49,6 +49,8 @@ class Tablero
   def ubicar_barco(coordenada, barco, direccion)
     if se_puede_ubicar_el_barco?(coordenada, barco.tamanio, direccion)
       cambiar_estado_celdas(coordenada, barco, direccion)
+    else
+      raise 'Ya hay un barco en esa posicion'
     end
   end
 

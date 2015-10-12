@@ -105,6 +105,12 @@ describe 'tablero' do
       expect(tablero.obtener_celda('c3').estado).to eq 'ocupada'
     end
 
+    it 'deberia lanzar una excepcion cuando se quiere colocar un barco en una posicion ocupada' do
+      tablero.ubicar_barco('f7', Barco.new('submarino'), :horizontal)
+
+      expect{tablero.ubicar_barco('f6', Barco.new('crucero'), :horizontal)}.to raise_error('Ya hay un barco en esa posicion')
+    end
+
   end
 
   context 'cuando ubico un barco en el tablero, la celda tiene un barco asignado' do
