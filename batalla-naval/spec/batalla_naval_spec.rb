@@ -20,11 +20,11 @@ describe 'batalla naval' do
   context 'cuando quiero consultar el estado de las coordenadas a3 a4 a5' do
 
     it 'deberian estar ocupadas esas celdas' do
-      batalla_naval.poner_barco('a3', 'destructor', :horizontal)
+      batalla_naval.poner_barco('a3', 'destructor', :vertical)
 
       expect(batalla_naval.consultar_estado_en('a3')).to eq 'ocupada'
-      expect(batalla_naval.consultar_estado_en('a4')).to eq 'ocupada'
-      expect(batalla_naval.consultar_estado_en('a5')).to eq 'ocupada'
+      expect(batalla_naval.consultar_estado_en('b3')).to eq 'ocupada'
+      expect(batalla_naval.consultar_estado_en('c3')).to eq 'ocupada'
     end
 
   end

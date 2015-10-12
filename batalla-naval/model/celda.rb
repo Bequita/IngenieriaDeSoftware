@@ -1,6 +1,6 @@
 class Celda
 
-  attr_reader :coordenada_celda, :estado
+  attr_reader :coordenada_celda, :estado, :barco_ocupante
 
   def initialize(coord)
     @estado = 'libre'

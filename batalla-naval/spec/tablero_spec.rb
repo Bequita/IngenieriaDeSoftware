@@ -29,6 +29,12 @@ describe 'tablero' do
       expect(tablero.obtener_celda('d5').coordenada_celda).to eq [3,5]
     end
 
+    it 'deberia no tener asignado ningun barco' do
+      celda = tablero.obtener_celda('f5')
+
+      expect(celda.barco_ocupante).to eq :vacia
+    end
+
   end
 
   context 'cuando se ubica un barco en el tablero' do
@@ -97,6 +103,19 @@ describe 'tablero' do
       expect(tablero.obtener_celda('a3').estado).to eq 'ocupada'
       expect(tablero.obtener_celda('b3').estado).to eq 'ocupada'
       expect(tablero.obtener_celda('c3').estado).to eq 'ocupada'
+    end
+
+  end
+
+  context 'cuando ubico un barco en el tablero, la celda tiene un barco asignado' do
+
+    it 'deberia tener un barco destructor asignado' do
+      barco = Barco.new('destructor')
+      tablero.ubicar_barco('a3', barco, :vertical)
+
+      expect(tablero.obtener_celda('a3').barco_ocupante).to eq barco
+      expect(tablero.obtener_celda('b3').barco_ocupante).to eq barco
+      expect(tablero.obtener_celda('c3').barco_ocupante).to eq barco
     end
 
   end
