@@ -8,13 +8,11 @@ Feature: disparar a barcos enemigos
     When  Disparo a la coordenada a3
     Then  Toco agua, porque no habia ningun barco
 
-  @wip
   Scenario: Disparo y toco un barco pero no lo hundo
     Given Una batalla naval y un barco ubicado en las coordenadas b5 b6 b7
     When  Disparo a la coordenada b5
     Then  Le acierto al barco, pero no lo hundo
 
-  @wip
   Scenario: Disparo y toco un barco y lo hundo
     Given Una batalla naval y un barco ubicado en las coordenadas f7
     When  Disparo a la coordenada f7

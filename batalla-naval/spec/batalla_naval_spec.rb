@@ -37,6 +37,26 @@ describe 'batalla naval' do
       expect(batalla_naval.consultar_estado_en('a3')).to eq :agua
     end
 
+    it 'deberia golpear un barco' do
+      batalla_naval.poner_barco('b5', :destructor, :vertical)
+      barco = batalla_naval.tablero.obtener_celda('b5').barco_ocupante
+      expect(barco.estado_barco).to eq 'activo'
+
+      batalla_naval.disparar('b5')
+      expect(barco.estado_barco).to eq 'golpeado'
+    end
+
+    it 'deberia hundir un barco' do
+      batalla_naval.poner_barco('b5', :crucero, :horizontal)
+      barco = batalla_naval.tablero.obtener_celda('b5').barco_ocupante
+      expect(barco.estado_barco).to eq 'activo'
+
+      batalla_naval.disparar('b5')
+      expect(barco.estado_barco).to eq 'golpeado'
+      batalla_naval.disparar('b6')
+      expect(barco.estado_barco).to eq 'hundido'
+    end
+
   end
 
 end
