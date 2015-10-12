@@ -21,7 +21,7 @@ describe 'tablero' do
   context 'cuando se accede a una celda del tablero' do
 
     it 'deberia tener una celda vacia' do
-      expect(tablero.lista_celdas[2][0].id_celda).to eq [2,0]
+      expect(tablero.lista_celdas[2][0].coordenada_celda).to eq [2,0]
     end
 
     it 'deberia retornar la celda con posicion [3,5]' do
