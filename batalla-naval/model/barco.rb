@@ -1,10 +1,12 @@
 class Barco
 
-  attr_reader :tamanio, :nombre
+  attr_reader :tamanio, :nombre, :sectores_activos, :estado_barco
 
   def initialize(nom)
     @nombre = nom
     @tamanio = tamanio_barco(nom)
+    @sectores_activos = @tamanio
+    @estado_barco = 'activo'
   end
 
   def tamanio_barco(nom)
@@ -15,6 +17,17 @@ class Barco
     else
       raise 'No se puede crear un barco con ese nombre'
     end
+  end
+
+  def restar_sector
+    @sectores_activos -= 1
+    if @sectores_activos.eql? 0
+      cambiar_estado
+    end
+  end
+
+  def cambiar_estado
+    @estado_barco = 'hundido'
   end
 
 end

@@ -1,5 +1,5 @@
 require_relative 'celda'
-require_relative '../model/barco'
+require_relative 'barco'
 
 class Tablero
 
@@ -48,7 +48,7 @@ class Tablero
 
   def ubicar_barco(coordenada, barco, direccion)
     if se_puede_ubicar_el_barco?(coordenada, barco.tamanio, direccion)
-      cambiar_estado_celdas(coordenada, barco.tamanio, direccion)
+      cambiar_estado_celdas(coordenada, barco, direccion)
     end
   end
 
@@ -77,7 +77,7 @@ class Tablero
   def celdas_horizontales_ocupadas?(coordenada, tamanio_barco)
     while tamanio_barco > 0
       celda_actual = obtener_celda(coordenada)
-      if celda_actual.estado.eql? 'ocupada'
+      if celda_actual.esta_ocupada?
         return true
       end
 
@@ -91,7 +91,7 @@ class Tablero
   def celdas_verticales_ocupadas?(coordenada, tamanio_barco)
     while tamanio_barco > 0
       celda_actual = obtener_celda(coordenada)
-      if celda_actual.estado.eql? 'ocupada'
+      if celda_actual.esta_ocupada?
         return true
       end
 
@@ -102,28 +102,34 @@ class Tablero
     false
   end
 
-  def cambiar_estado_celdas(coordenada, tamanio_barco, direccion)
+  def cambiar_estado_celdas(coordenada, barco, direccion)
     if direccion.eql? :horizontal
-      cambiar_estado_celdas_horizontal(coordenada, tamanio_barco)
+      cambiar_estado_celdas_horizontal(coordenada, barco)
     else
-      cambiar_estado_celdas_vertical(coordenada, tamanio_barco)
+      cambiar_estado_celdas_vertical(coordenada, barco)
     end
   end
 
-  def cambiar_estado_celdas_horizontal(coordenada, tamanio_barco)
+  def cambiar_estado_celdas_horizontal(coordenada, barco)
+    tamanio_barco = barco.tamanio
+
     while tamanio_barco > 0
       celda = obtener_celda(coordenada)
       celda.cambiar_estado
+      celda.asignar_barco(barco)
 
       coordenada = "#{coordenada[0]}#{Integer(coordenada[1]) + 1}"
       tamanio_barco -= 1
     end
   end
 
-  def cambiar_estado_celdas_vertical(coordenada, tamanio_barco)
+  def cambiar_estado_celdas_vertical(coordenada, barco)
+    tamanio_barco = barco.tamanio
+
     while tamanio_barco > 0
       celda = obtener_celda(coordenada)
       celda.cambiar_estado
+      celda.asignar_barco(barco)
 
       coordenada = "#{siguiente_fila(coordenada[0])}#{coordenada[1]}"
       tamanio_barco -= 1
@@ -131,15 +137,4 @@ class Tablero
   end
 
 end
-
-# while tamanio_barco > 0
-#   celda = obtener_celda(coordenada)
-#   celda.cambiar_estado
-#
-#   coordenada = "#{coordenada[0]}#{coordenada[1] + 1}"
-#   tamanio_barco -= 1
-# end
-# elsif direccion.eql? :vertical
-# # pass
-# end
 

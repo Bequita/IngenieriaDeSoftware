@@ -13,4 +13,8 @@ class BatallaNaval
     @tablero.ubicar_barco(coordenada, Barco.new(tipo_barco), direccion)
   end
 
+  def consultar_estado_en(coor)
+    @tablero.obtener_celda(coor).estado
+  end
+
 end

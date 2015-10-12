@@ -1,19 +1,23 @@
 class Celda
 
   attr_reader :coordenada_celda, :estado
-  attr_writer :estado
 
   def initialize(coord)
     @estado = 'libre'
     @coordenada_celda = coord
+    @barco_ocupante = :vacia
   end
 
   def cambiar_estado
-    if @estado.eql? 'libre'
-      @estado = 'ocupada'
-    else
-      @estado = 'libre'
-    end
+    @estado = 'ocupada'
+  end
+
+  def asignar_barco(barco)
+    @barco_ocupante = barco
+  end
+
+  def esta_ocupada?
+    @estado.eql? 'ocupada'
   end
 
 end

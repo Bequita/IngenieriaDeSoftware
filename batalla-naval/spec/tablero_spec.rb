@@ -40,7 +40,7 @@ describe 'tablero' do
 
     it 'deberia no poder ubicarse el barco, porque una celda esta ocupada' do
       celda_a4 = tablero.obtener_celda('a4')
-      celda_a4.estado = 'ocupada'
+      celda_a4.cambiar_estado
 
       expect(tablero.celdas_horizontales_ocupadas?('a3', 3)).to eq true
       expect(tablero.se_puede_ubicar_el_barco?('a3', 3, :horizontal)).to eq false
@@ -53,7 +53,7 @@ describe 'tablero' do
 
     it 'deberia no poder ubicarse el barco, porque una celda esta ocupada' do
       celda_b3 = tablero.obtener_celda('b3')
-      celda_b3.estado = 'ocupada'
+      celda_b3.cambiar_estado
 
       expect(tablero.celdas_verticales_ocupadas?('a3', 3)).to eq true
       expect(tablero.se_puede_ubicar_el_barco?('a3', 3, :vertical)).to eq false
@@ -67,12 +67,20 @@ describe 'tablero' do
       expect{tablero.se_puede_ubicar_el_barco?('i7', 3, :vertical)}.to raise_error('La coordenada cae fuera del tablero')
     end
 
-    it 'deberia cambiarle el estado a la celda' do
-      tablero.cambiar_estado_celdas('a3', 3, :horizontal)
+    it 'deberia cambiarle el estado a la celdas a3 a4 a5' do
+      tablero.cambiar_estado_celdas('a3', Barco.new('destructor'), :horizontal)
 
       expect(tablero.obtener_celda('a3').estado).to eq 'ocupada'
       expect(tablero.obtener_celda('a4').estado).to eq 'ocupada'
       expect(tablero.obtener_celda('a5').estado).to eq 'ocupada'
+    end
+
+    it 'deberia cambiarle el estado a la celdas a3 a4 a5' do
+      tablero.cambiar_estado_celdas('a3', Barco.new('destructor'), :vertical)
+
+      expect(tablero.obtener_celda('a3').estado).to eq 'ocupada'
+      expect(tablero.obtener_celda('b3').estado).to eq 'ocupada'
+      expect(tablero.obtener_celda('c3').estado).to eq 'ocupada'
     end
 
     it 'deberia cambiarle el estado a las celdas cuando se ubica el barco exitosamente' do
