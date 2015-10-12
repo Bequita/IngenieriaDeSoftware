@@ -36,6 +36,7 @@ class Tablero
 
   def dic_fila_a_numero_de_fila(letraFila)
     hs = {'a' => 0, 'b' => 1, 'c' => 2, 'd' => 3, 'e' => 4, 'f' => 5, 'g' => 6, 'h' => 7, 'i' => 8, 'j' => 9}
+    hs.default = 10
 
     hs[letraFila]
   end

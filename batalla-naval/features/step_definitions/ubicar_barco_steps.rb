@@ -18,11 +18,19 @@ Then(/^El barco destructor ocupa 3 posiciones en el tablero, a3 a4 a5$/) do
   expect(@estado_celda_a5).to eq 'ocupada'
 end
 
-Given(/^Una posicion del juego y un barco, con un barco ya ubicado en esa celda$/) do
+Given(/^Una batalla naval, un barco y la posicion f5 ocupada$/) do
+  @batalla_naval = BatallaNaval.new
+  @batalla_naval.poner_barco('f5', :submarino, :horizontal)
 end
 
-Given(/^Una posicion del juego y un barco, y la posicion cae fuera del tablero$/) do
+When(/^Ubico un barco crucero en la posicion f(\d+)$/) do |arg1|
+  begin
+    @batalla_naval.poner_barco('f5', :crucero, :horizontal)
+  rescue Exception => e
+    @excepcion = e
+  end
 end
 
-Then(/^El barco no se puede ubicar$/) do
+Then(/^El barco no se puede ubicar, porque ya hay un barco en esa posicion$/) do
+  expect(@excepcion.message).to eq 'Ya hay un barco en esa posicion'
 end
