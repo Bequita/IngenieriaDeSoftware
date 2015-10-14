@@ -15,7 +15,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/batalla-naval@barco_cuando_creo_un_barco_nuevo__batalla_naval.coverage" NAME="barco cuando creo un barco nuevo: batalla-naval Coverage Results" MODIFIED="1444678329396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
-    <SUITE FILE_PATH="coverage/batalla-naval@Run_spec__barco_spec___batalla_naval.coverage" NAME="Run spec 'barco_spec': batalla-naval Coverage Results" MODIFIED="1444688604607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
+    <SUITE FILE_PATH="coverage/batalla-naval@Run_spec__barco_spec___batalla_naval.coverage" NAME="Run spec 'barco_spec': batalla-naval Coverage Results" MODIFIED="1444794183006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_se_ubica_un_barco_en_el_tablero_deberia_cambiarle_el_estado_a_las_celdas_cuando_se_ubica_el_barco_exitosamente__batalla_naval.coverage" NAME="tablero cuando se ubica un barco en el tablero deberia cambiarle el estado a las celdas cuando se ubica el barco exitosamente: batalla-naval Coverage Results" MODIFIED="1444619684525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@batalla_naval_cuando_quiero_ubicar_mis_barcos__batalla_naval.coverage" NAME="batalla naval cuando quiero ubicar mis barcos: batalla-naval Coverage Results" MODIFIED="1444613298610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_se_accede_a_una_celda_del_tablero_deberia_tener_una_celda__batalla_naval.coverage" NAME="tablero cuando se accede a una celda del tablero deberia tener una celda: batalla-naval Coverage Results" MODIFIED="1444681381954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
@@ -23,20 +23,21 @@
     <SUITE FILE_PATH="coverage/batalla-naval@batalla_naval.coverage" NAME="batalla_naval Coverage Results" MODIFIED="1444612893344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@barco_cuando_creo_un_barco_nuevo_deberia_crearse_con_el_nombre_balsa__batalla_naval.coverage" NAME="barco cuando creo un barco nuevo deberia crearse con el nombre balsa: batalla-naval Coverage Results" MODIFIED="1444612174821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@batalla_naval_cuando_quiero_disparar_a_un_barco_enemigo_deberia_golpear_un_barco__batalla_naval.coverage" NAME="batalla naval cuando quiero disparar a un barco enemigo deberia golpear un barco: batalla-naval Coverage Results" MODIFIED="1444688353375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
-    <SUITE FILE_PATH="coverage/batalla-naval@Run_spec__tablero_spec___batalla_naval.coverage" NAME="Run spec 'tablero_spec': batalla-naval Coverage Results" MODIFIED="1444688607623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
+    <SUITE FILE_PATH="coverage/batalla-naval@Run_spec__tablero_spec___batalla_naval.coverage" NAME="Run spec 'tablero_spec': batalla-naval Coverage Results" MODIFIED="1444794186187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@tablero__batalla_naval.coverage" NAME="tablero: batalla-naval Coverage Results" MODIFIED="1444682439948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@barco_cuando_le_cambio_el_estado_a_un_barco_deberia_tener_estado_hundido__batalla_naval.coverage" NAME="barco cuando le cambio el estado a un barco deberia tener estado hundido: batalla-naval Coverage Results" MODIFIED="1444678487798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_se_ubica_un_barco_en_el_tablero_deberia_retornar_false__porque_las_celdas_no_estan_ocupadas__batalla_naval.coverage" NAME="tablero cuando se ubica un barco en el tablero deberia retornar false, porque las celdas no estan ocupadas: batalla-naval Coverage Results" MODIFIED="1444616882476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
-    <SUITE FILE_PATH="coverage/batalla-naval@pruebas_should_do_something__batalla_naval.coverage" NAME="pruebas should do something: batalla-naval Coverage Results" MODIFIED="1444600164404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_se_ubica_un_barco_en_el_tablero_deberia_no_poder_ubicarse_el_barco__porque_una_celda_esta_ocupada__batalla_naval.coverage" NAME="tablero cuando se ubica un barco en el tablero deberia no poder ubicarse el barco, porque una celda esta ocupada: batalla-naval Coverage Results" MODIFIED="1444683064295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
+    <SUITE FILE_PATH="coverage/batalla-naval@pruebas_should_do_something__batalla_naval.coverage" NAME="pruebas should do something: batalla-naval Coverage Results" MODIFIED="1444600164404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
+    <SUITE FILE_PATH="coverage/batalla-naval@barco_cuando_le_resto_todos_los_sectores_a_un_barco_prueba__batalla_naval.coverage" NAME="barco cuando le resto todos los sectores a un barco prueba: batalla-naval Coverage Results" MODIFIED="1444793559177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_se_accede_a_una_celda_del_tablero_deberia_tener_una_celda_vacia__batalla_naval.coverage" NAME="tablero cuando se accede a una celda del tablero deberia tener una celda vacia: batalla-naval Coverage Results" MODIFIED="1444601925335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
-    <SUITE FILE_PATH="coverage/batalla-naval@Run_spec__batalla_naval_spec___batalla_naval.coverage" NAME="Run spec 'batalla_naval_spec': batalla-naval Coverage Results" MODIFIED="1444688606072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
+    <SUITE FILE_PATH="coverage/batalla-naval@Run_spec__batalla_naval_spec___batalla_naval.coverage" NAME="Run spec 'batalla_naval_spec': batalla-naval Coverage Results" MODIFIED="1444794184611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_ubico_un_barco_en_el_tablero__la_celda_tiene_un_barco_asignado_deberia_tener_un_barco_destructor_asignado__batalla_naval.coverage" NAME="tablero cuando ubico un barco en el tablero, la celda tiene un barco asignado deberia tener un barco destructor asignado: batalla-naval Coverage Results" MODIFIED="1444682437115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_se_ubica_un_barco_en_el_tablero_deberia_ubicarse_exitosamente__batalla_naval.coverage" NAME="tablero cuando se ubica un barco en el tablero deberia ubicarse exitosamente: batalla-naval Coverage Results" MODIFIED="1444613980351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
-    <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_se_ubica_un_barco_en_el_tablero__batalla_naval.coverage" NAME="tablero cuando se ubica un barco en el tablero: batalla-naval Coverage Results" MODIFIED="1444687068731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
+    <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_se_ubica_un_barco_en_el_tablero__batalla_naval.coverage" NAME="tablero cuando se ubica un barco en el tablero: batalla-naval Coverage Results" MODIFIED="1444794019525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_se_crea_un_tablero_deberia_crear_una_matriz_de_celdas_de_tamanio_10__batalla_naval.coverage" NAME="tablero cuando se crea un tablero deberia crear una matriz de celdas de tamanio 10: batalla-naval Coverage Results" MODIFIED="1444681375919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
-    <SUITE FILE_PATH="coverage/batalla-naval@barco_cuando_creo_un_barco_nuevo_deberia_crearse_con_el_nombre_destructor__batalla_naval.coverage" NAME="barco cuando creo un barco nuevo deberia crearse con el nombre destructor: batalla-naval Coverage Results" MODIFIED="1444597712625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_se_ubica_un_barco_en_el_tablero_deberia_cambiarle_el_estado_a_la_celdas_a3_a4_a5__batalla_naval.coverage" NAME="tablero cuando se ubica un barco en el tablero deberia cambiarle el estado a la celdas a3 a4 a5: batalla-naval Coverage Results" MODIFIED="1444681696073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
+    <SUITE FILE_PATH="coverage/batalla-naval@barco_cuando_creo_un_barco_nuevo_deberia_crearse_con_el_nombre_destructor__batalla_naval.coverage" NAME="barco cuando creo un barco nuevo deberia crearse con el nombre destructor: batalla-naval Coverage Results" MODIFIED="1444597712625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_se_crea_un_tablero_deberia_cualquier_fila_del_array_contener_una_columna_de_tamanio_10__batalla_naval.coverage" NAME="tablero cuando se crea un tablero deberia cualquier fila del array contener una columna de tamanio 10: batalla-naval Coverage Results" MODIFIED="1444681378276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_se_accede_a_una_celda_del_tablero_deberia_no_tener_asignado_ningun_barco__batalla_naval.coverage" NAME="tablero cuando se accede a una celda del tablero deberia no tener asignado ningun barco: batalla-naval Coverage Results" MODIFIED="1444682297222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@barco_cuando_creo_un_barco_nuevo_deberia_crearse_con_el_nombre_acorazado__batalla_naval.coverage" NAME="barco cuando creo un barco nuevo deberia crearse con el nombre acorazado: batalla-naval Coverage Results" MODIFIED="1444519331510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
@@ -50,8 +51,8 @@
     <SUITE FILE_PATH="coverage/batalla-naval@Run_spec__una_spec___batalla_naval.coverage" NAME="Run spec 'una_spec': batalla-naval Coverage Results" MODIFIED="1444510739297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@batalla_naval__batalla_naval.coverage" NAME="batalla naval: batalla-naval Coverage Results" MODIFIED="1444687346051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_se_ubica_un_barco_en_el_tablero_deberia_poder_ubicarse_el_barco__porque_las_celdas_no_estan_ocupadas__batalla_naval.coverage" NAME="tablero cuando se ubica un barco en el tablero deberia poder ubicarse el barco, porque las celdas no estan ocupadas: batalla-naval Coverage Results" MODIFIED="1444681405200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
-    <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_se_ubica_un_barco_en_el_tablero_deberia_lanzar_una_excepcion_cuando_se_quiere_colocar_un_barco_en_una_posicion_ocupada__batalla_naval.coverage" NAME="tablero cuando se ubica un barco en el tablero deberia lanzar una excepcion cuando se quiere colocar un barco en una posicion ocupada: batalla-naval Coverage Results" MODIFIED="1444683275550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
-    <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_se_ubica_un_barco_en_el_tablero_deberia_lanzar_una_excepcion_porque_cae_fuera_del_tablero__batalla_naval.coverage" NAME="tablero cuando se ubica un barco en el tablero deberia lanzar una excepcion porque cae fuera del tablero: batalla-naval Coverage Results" MODIFIED="1444681423486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
+    <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_se_ubica_un_barco_en_el_tablero_deberia_lanzar_una_excepcion_cuando_se_quiere_colocar_un_barco_en_una_posicion_ocupada__batalla_naval.coverage" NAME="tablero cuando se ubica un barco en el tablero deberia lanzar una excepcion cuando se quiere colocar un barco en una posicion ocupada: batalla-naval Coverage Results" MODIFIED="1444794114427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
+    <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_se_ubica_un_barco_en_el_tablero_deberia_lanzar_una_excepcion_porque_cae_fuera_del_tablero__batalla_naval.coverage" NAME="tablero cuando se ubica un barco en el tablero deberia lanzar una excepcion porque cae fuera del tablero: batalla-naval Coverage Results" MODIFIED="1444794149002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@batalla_naval_cuando_quiero_ubicar_un_barco_destructor_en_las_celdas_a3_a4_a5_deberian_estar_ocupadas_esas_celdas__batalla_naval.coverage" NAME="batalla naval cuando quiero ubicar un barco destructor en las celdas a3 a4 a5 deberian estar ocupadas esas celdas: batalla-naval Coverage Results" MODIFIED="1444681295701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@ubicar_barco_feature.coverage" NAME="ubicar_barco.feature Coverage Results" MODIFIED="1444597518956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@barco_cuando_creo_un_barco_nuevo_deberia_crearse_con_el_nombre_submarino__y_tener_1_sector_activo__batalla_naval.coverage" NAME="barco cuando creo un barco nuevo deberia crearse con el nombre submarino, y tener 1 sector activo: batalla-naval Coverage Results" MODIFIED="1444678314913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
@@ -63,8 +64,8 @@
     <SUITE FILE_PATH="coverage/batalla-naval@Run_spec__prueba_spec___batalla_naval.coverage" NAME="Run spec 'prueba_spec': batalla-naval Coverage Results" MODIFIED="1444611941386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@batalla_naval_cuando_quiero_consultar_el_estado_de_las_coordenadas_a3_a4_a5_deberian_estar_ocupadas_esas_celdas__batalla_naval.coverage" NAME="batalla naval cuando quiero consultar el estado de las coordenadas a3 a4 a5 deberian estar ocupadas esas celdas: batalla-naval Coverage Results" MODIFIED="1444687015343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@batalla_naval_cuando_quiero_disparar_a_un_barco_enemigo_deberia_tocar_agua__batalla_naval.coverage" NAME="batalla naval cuando quiero disparar a un barco enemigo deberia tocar agua: batalla-naval Coverage Results" MODIFIED="1444687811048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
-    <SUITE FILE_PATH="coverage/batalla-naval@pruebas__batalla_naval.coverage" NAME="pruebas: batalla-naval Coverage Results" MODIFIED="1444599534848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
     <SUITE FILE_PATH="coverage/batalla-naval@tablero_cuando_se_ubica_un_barco_en_el_tablero_deberia_cambiarle_el_estado_a_la_celda__batalla_naval.coverage" NAME="tablero cuando se ubica un barco en el tablero deberia cambiarle el estado a la celda: batalla-naval Coverage Results" MODIFIED="1444681536982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
+    <SUITE FILE_PATH="coverage/batalla-naval@pruebas__batalla_naval.coverage" NAME="pruebas: batalla-naval Coverage Results" MODIFIED="1444599534848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="batalla-naval" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -79,8 +80,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Ruby Class Template" />
         <option value="RSpec Test Template" />
+        <option value="Ruby Class Template" />
       </list>
     </option>
   </component>
@@ -92,15 +93,18 @@
         <option value="$PROJECT_DIR$/spec/prueba_spec.rb" />
         <option value="$PROJECT_DIR$/features/ubicar_barco.feature" />
         <option value="$PROJECT_DIR$/model/barco.rb" />
-        <option value="$PROJECT_DIR$/spec/barco_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/tablero_spec.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/ubicar_barco_steps.rb" />
         <option value="$PROJECT_DIR$/model/batalla_naval.rb" />
-        <option value="$PROJECT_DIR$/model/tablero.rb" />
         <option value="$PROJECT_DIR$/model/celda.rb" />
         <option value="$PROJECT_DIR$/spec/batalla_naval_spec.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/tiroteo_steps.rb" />
         <option value="$PROJECT_DIR$/features/tiroteo.feature" />
+        <option value="$PROJECT_DIR$/model/existe_barco_exception.rb" />
+        <option value="$PROJECT_DIR$/model/existe_barco_error.rb" />
+        <option value="$PROJECT_DIR$/spec/barco_spec.rb" />
+        <option value="$PROJECT_DIR$/model/coordenada_invalida_error.rb" />
+        <option value="$PROJECT_DIR$/model/tablero.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/ubicar_barco_steps.rb" />
+        <option value="$PROJECT_DIR$/spec/tablero_spec.rb" />
       </list>
     </option>
   </component>
@@ -139,7 +143,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,6 +223,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -230,9 +234,77 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="celda&#9;FILE&#9;file:///home/matutee/git/IngenieriaDeSoftware/batalla-naval/model/celda.rb&#10;table&#9;FILE&#9;file:///home/matutee/git/IngenieriaDeSoftware/batalla-naval/model/tablero.rb&#10;barco&#9;FILE&#9;file:///home/matutee/git/IngenieriaDeSoftware/batalla-naval/model/barco.rb&#10;tabler&#9;FILE&#9;file:///home/matutee/git/IngenieriaDeSoftware/batalla-naval/model/tablero.rb&#10;batalla&#9;FILE&#9;file:///home/matutee/git/IngenieriaDeSoftware/batalla-naval/model/batalla_naval.rb&#10;tablero&#9;FILE&#9;file:///home/matutee/git/IngenieriaDeSoftware/batalla-naval/model/tablero.rb" />
+    <property name="SearchEverywhereHistoryKey" value="excep&#9;null&#9;null&#10;standar&#9;null&#9;null&#10;celda&#9;FILE&#9;file:///home/matutee/git/IngenieriaDeSoftware/batalla-naval/model/celda.rb&#10;table&#9;FILE&#9;file:///home/matutee/git/IngenieriaDeSoftware/batalla-naval/model/tablero.rb&#10;barco&#9;FILE&#9;file:///home/matutee/git/IngenieriaDeSoftware/batalla-naval/model/barco.rb&#10;tabler&#9;FILE&#9;file:///home/matutee/git/IngenieriaDeSoftware/batalla-naval/model/tablero.rb&#10;batalla&#9;FILE&#9;file:///home/matutee/git/IngenieriaDeSoftware/batalla-naval/model/batalla_naval.rb&#10;tablero&#9;FILE&#9;file:///home/matutee/git/IngenieriaDeSoftware/batalla-naval/model/tablero.rb" />
   </component>
   <component name="RunManager" selected="RSpec.Run spec 'tablero_spec': batalla-naval">
+    <configuration default="false" name="tablero cuando se ubica un barco en el tablero deberia lanzar una excepcion porque cae fuera del tablero: batalla-naval" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="batalla-naval" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/tablero_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="tablero cuando se ubica un barco en el tablero deberia lanzar una excepcion porque cae fuera del tablero" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tablero cuando se ubica un barco en el tablero deberia lanzar una excepcion cuando se quiere colocar un barco en una posicion ocupada: batalla-naval" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="batalla-naval" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/tablero_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="tablero cuando se ubica un barco en el tablero deberia lanzar una excepcion cuando se quiere colocar un barco en una posicion ocupada" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
     <configuration default="false" name="Run spec 'barco_spec': batalla-naval" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="batalla-naval" />
@@ -325,74 +397,6 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="batalla naval cuando quiero disparar a un barco enemigo deberia golpear un barco: batalla-naval" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="batalla-naval" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/batalla_naval_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="batalla naval cuando quiero disparar a un barco enemigo deberia golpear un barco" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="batalla naval cuando quiero disparar a un barco enemigo deberia hundir un barco: batalla-naval" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="batalla-naval" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/batalla_naval_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="batalla naval cuando quiero disparar a un barco enemigo deberia hundir un barco" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -533,19 +537,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Cucumber.ejemplo.feature" />
       <item index="1" class="java.lang.String" itemvalue="Cucumber.ubicar_barco.feature" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'barco_spec': batalla-naval" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'batalla_naval_spec': batalla-naval" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'tablero_spec': batalla-naval" />
-      <item index="5" class="java.lang.String" itemvalue="RSpec.batalla naval cuando quiero disparar a un barco enemigo deberia golpear un barco: batalla-naval" />
-      <item index="6" class="java.lang.String" itemvalue="RSpec.batalla naval cuando quiero disparar a un barco enemigo deberia hundir un barco: batalla-naval" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.tablero cuando se ubica un barco en el tablero deberia lanzar una excepcion porque cae fuera del tablero: batalla-naval" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.tablero cuando se ubica un barco en el tablero deberia lanzar una excepcion cuando se quiere colocar un barco en una posicion ocupada: batalla-naval" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'barco_spec': batalla-naval" />
+      <item index="5" class="java.lang.String" itemvalue="RSpec.Run spec 'batalla_naval_spec': batalla-naval" />
+      <item index="6" class="java.lang.String" itemvalue="RSpec.Run spec 'tablero_spec': batalla-naval" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'tablero_spec': batalla-naval" />
         <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'batalla_naval_spec': batalla-naval" />
         <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'barco_spec': batalla-naval" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.batalla naval cuando quiero disparar a un barco enemigo deberia hundir un barco: batalla-naval" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.batalla naval cuando quiero disparar a un barco enemigo deberia golpear un barco: batalla-naval" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.tablero cuando se ubica un barco en el tablero deberia lanzar una excepcion porque cae fuera del tablero: batalla-naval" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.tablero cuando se ubica un barco en el tablero deberia lanzar una excepcion cuando se quiere colocar un barco en una posicion ocupada: batalla-naval" />
       </list>
     </recent_temporary>
   </component>
@@ -575,13 +579,12 @@
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3288889" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17727272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18030304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30814815" sideWeight="0.4969697" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -589,11 +592,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -611,9 +615,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17727272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18030304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30814815" sideWeight="0.4969697" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -633,14 +637,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/ubicar_barco_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/barco_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -685,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,7 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,7 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -861,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -869,7 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -923,14 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/barco_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4645309">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/barco.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -947,27 +928,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/tablero.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4680851">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/celda.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08510638">
           <caret line="2" column="57" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/tablero_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4113475">
-          <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -975,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65011823">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,7 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38297874">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,22 +953,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5531915">
           <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs22/standard_error.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3906977">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs22/exception.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5331808">
+          <caret line="128" column="42" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/barco_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/tiroteo_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5319149">
+        <state vertical-scroll-proportion="0.9176201">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/existe_barco_error.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/coordenada_invalida_error.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12765957">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/tablero_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.78032035">
+          <caret line="71" column="69" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/ubicar_barco_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.04255319">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.38215104">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/tablero.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20594966">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding />
         </state>
       </provider>

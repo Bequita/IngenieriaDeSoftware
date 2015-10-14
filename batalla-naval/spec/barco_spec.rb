@@ -1,5 +1,6 @@
 require 'rspec'
 require_relative '../model/barco'
+require_relative '../model/existe_barco_error'
 
 describe 'barco' do
 

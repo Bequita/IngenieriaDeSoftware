@@ -66,11 +66,11 @@ describe 'tablero' do
     end
 
     it 'deberia lanzar una excepcion porque cae fuera del tablero' do
-      expect{tablero.se_puede_ubicar_el_barco?('a8', 3, :horizontal)}.to raise_error('La coordenada cae fuera del tablero')
+      expect{tablero.se_puede_ubicar_el_barco?('a8', 3, :horizontal)}.to raise_exception(CoordenadaInvalidaError)
     end
 
     it 'deberia lanzar una excepcion porque cae fuera del tablero' do
-      expect{tablero.se_puede_ubicar_el_barco?('i7', 3, :vertical)}.to raise_error('La coordenada cae fuera del tablero')
+      expect{tablero.se_puede_ubicar_el_barco?('i7', 3, :vertical)}.to raise_exception(CoordenadaInvalidaError)
     end
 
     it 'deberia cambiarle el estado a la celdas a3 a4 a5' do
@@ -108,7 +108,7 @@ describe 'tablero' do
     it 'deberia lanzar una excepcion cuando se quiere colocar un barco en una posicion ocupada' do
       tablero.ubicar_barco('f7', Barco.new('submarino'), :horizontal)
 
-      expect{tablero.ubicar_barco('f6', Barco.new('crucero'), :horizontal)}.to raise_error('Ya hay un barco en esa posicion')
+      expect{tablero.ubicar_barco('f6', Barco.new('crucero'), :horizontal)}.to raise_exception(ExisteBarcoError)
     end
 
   end

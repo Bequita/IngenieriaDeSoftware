@@ -1,5 +1,7 @@
 require_relative 'celda'
 require_relative 'barco'
+require_relative 'existe_barco_error'
+require_relative 'coordenada_invalida_error'
 
 class Tablero
 
@@ -51,7 +53,7 @@ class Tablero
     if se_puede_ubicar_el_barco?(coordenada, barco.tamanio, direccion)
       cambiar_estado_celdas(coordenada, barco, direccion)
     else
-      raise 'Ya hay un barco en esa posicion'
+      raise ExisteBarcoError
     end
   end
 
@@ -63,7 +65,7 @@ class Tablero
         !celdas_verticales_ocupadas?(coordenada, tamanio_barco)
       end
     else
-      raise 'La coordenada cae fuera del tablero'
+      raise CoordenadaInvalidaError
     end
   end
 

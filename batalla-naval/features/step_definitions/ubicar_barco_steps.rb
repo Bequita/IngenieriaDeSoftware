@@ -26,24 +26,24 @@ end
 When(/^Ubico un barco crucero en la posicion f(\d+)$/) do |arg1|
   begin
     @batalla_naval.poner_barco('f5', :crucero, :horizontal)
-  rescue Exception => e
+  rescue ExisteBarcoError => e
     @excepcion = e
   end
 end
 
 Then(/^El barco no se puede ubicar, porque ya hay un barco en esa posicion$/) do
-  expect(@excepcion.message).to eq 'Ya hay un barco en esa posicion'
+  expect(@excepcion.message).to eq "ExisteBarcoError"
 end
 
 When(/^Ubico un barco en la posicion k(\d+)$/) do |arg1|
   begin
     @batalla_naval.poner_barco('k5', :destructor, :vertical)
-  rescue Exception => e
+  rescue CoordenadaInvalidaError => e
     @excepcion = e
   end
 end
 
 Then(/^El barco no se puede ubicar, porque cae fuera del tablero$/) do
-  expect(@excepcion.message).to eq 'La coordenada cae fuera del tablero'
+  expect(@excepcion.message).to eq "CoordenadaInvalidaError"
 end
 
