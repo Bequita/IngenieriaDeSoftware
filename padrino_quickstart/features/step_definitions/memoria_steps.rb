@@ -14,3 +14,7 @@ end
 Given(/^hago una resta$/) do
   @calculadora.restar(9,4)
 end
+
+Given(/^reseteo la memoria$/) do
+  @calculadora.resetear_memoria
+end

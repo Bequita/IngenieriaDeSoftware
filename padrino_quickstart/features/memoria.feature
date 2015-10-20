@@ -9,7 +9,6 @@ Feature: memoria de cantidad de operaciones
     And   hago una resta
     Then  la cantidad de operaciones es 2
 
-  @wip
   Scenario: cuando reseteo la cantidad de operaciones vuelve a cero
     Given hago una suma
     And   hago una resta
