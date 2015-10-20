@@ -17,3 +17,10 @@ end
 Then(/^el resultado es (\d+)$/) do |arg1|
   expect(@resultado).to eq arg1.to_i
 end
+
+When(/^los resto$/) do
+  @resultado = @calculadora.restar(@operando_1, @operando_2)
+end
+
+When(/^los promedio$/) do
+end

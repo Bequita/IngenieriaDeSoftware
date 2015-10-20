@@ -20,9 +20,9 @@
     <SUITE FILE_PATH="coverage/padrino_quickstart@All_tests_in_spec__padrino_quickstart.coverage" NAME="All tests in spec: padrino_quickstart Coverage Results" MODIFIED="1445299232852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="padrino_quickstart" />
     <SUITE FILE_PATH="coverage/padrino_quickstart@calculadora_cuando_hago_operaciones_con_la_calculadora_deberia_incrementarse_el_contador__padrino_quickstart.coverage" NAME="calculadora cuando hago operaciones con la calculadora deberia incrementarse el contador: padrino_quickstart Coverage Results" MODIFIED="1445306338426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="padrino_quickstart" />
     <SUITE FILE_PATH="coverage/padrino_quickstart@calculadora_cuando_hago_operaciones_con_la_calculadora_deberia_incrementarse_el_contador_deberia_incrementarse_cuando_resto__padrino_quickstart.coverage" NAME="calculadora cuando hago operaciones con la calculadora deberia incrementarse el contador deberia incrementarse cuando resto: padrino_quickstart Coverage Results" MODIFIED="1445306312469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="padrino_quickstart" />
-    <SUITE FILE_PATH="coverage/padrino_quickstart@calculadora_cuando_realizo_las_operaciones_la_resta_deberia_dar_9_si_resto_11_y_2__padrino_quickstart.coverage" NAME="calculadora cuando realizo las operaciones la resta deberia dar 9 si resto 11 y 2: padrino_quickstart Coverage Results" MODIFIED="1445308346589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="padrino_quickstart" />
+    <SUITE FILE_PATH="coverage/padrino_quickstart@calculadora_cuando_realizo_las_operaciones_la_resta_deberia_dar_9_si_resto_11_y_2__padrino_quickstart.coverage" NAME="calculadora cuando realizo las operaciones la resta deberia dar 9 si resto 11 y 2: padrino_quickstart Coverage Results" MODIFIED="1445310713368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="padrino_quickstart" />
     <SUITE FILE_PATH="coverage/padrino_quickstart@calculadora_cuando_reseteo_la_memoria_de_la_calculadora__la_cantidad_de_operaciones_deberia_ser_0_deberia_ser_0_despues_del_reseteo__padrino_quickstart.coverage" NAME="calculadora cuando reseteo la memoria de la calculadora, la cantidad de operaciones deberia ser 0 deberia ser 0 despues del reseteo: padrino_quickstart Coverage Results" MODIFIED="1445306721809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="padrino_quickstart" />
-    <SUITE FILE_PATH="coverage/padrino_quickstart@calculadora__padrino_quickstart.coverage" NAME="calculadora: padrino_quickstart Coverage Results" MODIFIED="1445308348807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="padrino_quickstart" />
+    <SUITE FILE_PATH="coverage/padrino_quickstart@calculadora__padrino_quickstart.coverage" NAME="calculadora: padrino_quickstart Coverage Results" MODIFIED="1445310730191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="padrino_quickstart" />
     <SUITE FILE_PATH="coverage/padrino_quickstart@calculadora_cuando_realizo_las_operaciones__padrino_quickstart.coverage" NAME="calculadora cuando realizo las operaciones: padrino_quickstart Coverage Results" MODIFIED="1445307481978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="padrino_quickstart" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/spec/calculadora_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,27 +48,27 @@
         <entry file="file://$PROJECT_DIR$/app/models/calculadora.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="operaciones_basicas.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="operaciones_basicas.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/operaciones_basicas.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7234042">
+            <state vertical-scroll-proportion="0.0">
               <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="operaciones_basicas_steps.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="operaciones_basicas_steps.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/operaciones_basicas_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.78723407">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -91,10 +91,10 @@
         <option value="$PROJECT_DIR$/features/ejemplo.feature" />
         <option value="$PROJECT_DIR$/features/memoria.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/memoria_steps.rb" />
+        <option value="$PROJECT_DIR$/spec/calculadora_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/calculadora.rb" />
         <option value="$PROJECT_DIR$/features/operaciones_basicas.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/operaciones_basicas_steps.rb" />
-        <option value="$PROJECT_DIR$/app/models/calculadora.rb" />
-        <option value="$PROJECT_DIR$/spec/calculadora_spec.rb" />
       </list>
     </option>
   </component>
@@ -698,15 +698,7 @@
     <entry file="file://$PROJECT_DIR$/spec/calculadora_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/operaciones_basicas_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="40" />
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -714,15 +706,23 @@
     <entry file="file://$PROJECT_DIR$/app/models/calculadora.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/operaciones_basicas.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7234042">
+        <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/operaciones_basicas_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78723407">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding />
         </state>
       </provider>
