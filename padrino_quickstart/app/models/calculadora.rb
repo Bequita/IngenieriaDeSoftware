@@ -20,6 +20,10 @@ class Calculadora
 
   def promedio(arg1)
     @cantidad_operaciones += 1
+
+    acum = 0
+    arg1.each { |i| acum += i }
+    acum / arg1.size
   end
 
   def resetear_memoria

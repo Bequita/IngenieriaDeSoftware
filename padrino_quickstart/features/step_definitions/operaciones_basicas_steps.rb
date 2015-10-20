@@ -23,4 +23,5 @@ When(/^los resto$/) do
 end
 
 When(/^los promedio$/) do
+  @resultado = @calculadora.promedio([@operando_1, @operando_2])
 end

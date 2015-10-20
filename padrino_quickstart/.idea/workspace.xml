@@ -15,6 +15,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/padrino_quickstart@calculadora_cuando_hago_operaciones_con_la_calculadora_deberia_incrementarse_el_contador_deberia_incrementarse_en_1_cuando_sumo__padrino_quickstart.coverage" NAME="calculadora cuando hago operaciones con la calculadora deberia incrementarse el contador deberia incrementarse en 1 cuando sumo: padrino_quickstart Coverage Results" MODIFIED="1445306154461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="padrino_quickstart" />
+    <SUITE FILE_PATH="coverage/padrino_quickstart@calculadora_cuando_realizo_las_operaciones_el_promedio_deberia_dar_7__si_promedio_10_y_4__padrino_quickstart.coverage" NAME="calculadora cuando realizo las operaciones el promedio deberia dar 7, si promedio 10 y 4: padrino_quickstart Coverage Results" MODIFIED="1445312623808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="padrino_quickstart" />
     <SUITE FILE_PATH="coverage/padrino_quickstart@calculadora_cuando_se_crea_una_calculadora_deberia_tener_la_cantidad_de_operaciones_en_0__padrino_quickstart.coverage" NAME="calculadora cuando se crea una calculadora deberia tener la cantidad de operaciones en 0: padrino_quickstart Coverage Results" MODIFIED="1445306005425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="padrino_quickstart" />
     <SUITE FILE_PATH="coverage/padrino_quickstart@calculadora_cuando_realizo_las_operaciones_la_suma_deberia_dar_5_si_sumo_2_y_3__padrino_quickstart.coverage" NAME="calculadora cuando realizo las operaciones la suma deberia dar 5 si sumo 2 y 3: padrino_quickstart Coverage Results" MODIFIED="1445307436368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="padrino_quickstart" />
     <SUITE FILE_PATH="coverage/padrino_quickstart@All_tests_in_spec__padrino_quickstart.coverage" NAME="All tests in spec: padrino_quickstart Coverage Results" MODIFIED="1445299232852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="padrino_quickstart" />
@@ -22,7 +23,7 @@
     <SUITE FILE_PATH="coverage/padrino_quickstart@calculadora_cuando_hago_operaciones_con_la_calculadora_deberia_incrementarse_el_contador_deberia_incrementarse_cuando_resto__padrino_quickstart.coverage" NAME="calculadora cuando hago operaciones con la calculadora deberia incrementarse el contador deberia incrementarse cuando resto: padrino_quickstart Coverage Results" MODIFIED="1445306312469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="padrino_quickstart" />
     <SUITE FILE_PATH="coverage/padrino_quickstart@calculadora_cuando_realizo_las_operaciones_la_resta_deberia_dar_9_si_resto_11_y_2__padrino_quickstart.coverage" NAME="calculadora cuando realizo las operaciones la resta deberia dar 9 si resto 11 y 2: padrino_quickstart Coverage Results" MODIFIED="1445310713368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="padrino_quickstart" />
     <SUITE FILE_PATH="coverage/padrino_quickstart@calculadora_cuando_reseteo_la_memoria_de_la_calculadora__la_cantidad_de_operaciones_deberia_ser_0_deberia_ser_0_despues_del_reseteo__padrino_quickstart.coverage" NAME="calculadora cuando reseteo la memoria de la calculadora, la cantidad de operaciones deberia ser 0 deberia ser 0 despues del reseteo: padrino_quickstart Coverage Results" MODIFIED="1445306721809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="padrino_quickstart" />
-    <SUITE FILE_PATH="coverage/padrino_quickstart@calculadora__padrino_quickstart.coverage" NAME="calculadora: padrino_quickstart Coverage Results" MODIFIED="1445310730191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="padrino_quickstart" />
+    <SUITE FILE_PATH="coverage/padrino_quickstart@calculadora__padrino_quickstart.coverage" NAME="calculadora: padrino_quickstart Coverage Results" MODIFIED="1445312627210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="padrino_quickstart" />
     <SUITE FILE_PATH="coverage/padrino_quickstart@calculadora_cuando_realizo_las_operaciones__padrino_quickstart.coverage" NAME="calculadora cuando realizo las operaciones: padrino_quickstart Coverage Results" MODIFIED="1445307481978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="padrino_quickstart" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -33,48 +34,7 @@
     <favorites_list name="padrino_quickstart" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="calculadora_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/calculadora_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calculadora.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/calculadora.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="operaciones_basicas.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/operaciones_basicas.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="operaciones_basicas_steps.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/operaciones_basicas_steps.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78723407">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,10 +51,10 @@
         <option value="$PROJECT_DIR$/features/ejemplo.feature" />
         <option value="$PROJECT_DIR$/features/memoria.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/memoria_steps.rb" />
-        <option value="$PROJECT_DIR$/spec/calculadora_spec.rb" />
-        <option value="$PROJECT_DIR$/app/models/calculadora.rb" />
         <option value="$PROJECT_DIR$/features/operaciones_basicas.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/operaciones_basicas_steps.rb" />
+        <option value="$PROJECT_DIR$/app/models/calculadora.rb" />
+        <option value="$PROJECT_DIR$/spec/calculadora_spec.rb" />
       </list>
     </option>
   </component>
@@ -258,6 +218,8 @@
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="byebug.present.asked" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="RSpec.calculadora: padrino_quickstart">
     <configuration default="false" name="calculadora: padrino_quickstart" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
@@ -284,40 +246,6 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="calculadora" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="calculadora cuando reseteo la memoria de la calculadora, la cantidad de operaciones deberia ser 0 deberia ser 0 despues del reseteo: padrino_quickstart" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="padrino_quickstart" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/calculadora_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="calculadora cuando reseteo la memoria de la calculadora, la cantidad de operaciones deberia ser 0 deberia ser 0 despues del reseteo" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -420,6 +348,40 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="calculadora cuando realizo las operaciones la resta deberia dar 9 si resto 11 y 2" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="calculadora cuando realizo las operaciones el promedio deberia dar 7, si promedio 10 y 4: padrino_quickstart" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="padrino_quickstart" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/calculadora_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="calculadora cuando realizo las operaciones el promedio deberia dar 7, si promedio 10 y 4" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -533,18 +495,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="RSpec.calculadora: padrino_quickstart" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.calculadora cuando reseteo la memoria de la calculadora, la cantidad de operaciones deberia ser 0 deberia ser 0 despues del reseteo: padrino_quickstart" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.calculadora cuando realizo las operaciones la suma deberia dar 5 si sumo 2 y 3: padrino_quickstart" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.calculadora cuando realizo las operaciones: padrino_quickstart" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.calculadora cuando realizo las operaciones la resta deberia dar 9 si resto 11 y 2: padrino_quickstart" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.calculadora cuando realizo las operaciones la suma deberia dar 5 si sumo 2 y 3: padrino_quickstart" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.calculadora cuando realizo las operaciones: padrino_quickstart" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.calculadora cuando realizo las operaciones la resta deberia dar 9 si resto 11 y 2: padrino_quickstart" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.calculadora cuando realizo las operaciones el promedio deberia dar 7, si promedio 10 y 4: padrino_quickstart" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="RSpec.calculadora: padrino_quickstart" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.calculadora cuando realizo las operaciones la resta deberia dar 9 si resto 11 y 2: padrino_quickstart" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.calculadora cuando realizo las operaciones: padrino_quickstart" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.calculadora cuando realizo las operaciones la suma deberia dar 5 si sumo 2 y 3: padrino_quickstart" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.calculadora cuando reseteo la memoria de la calculadora, la cantidad de operaciones deberia ser 0 deberia ser 0 despues del reseteo: padrino_quickstart" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.calculadora cuando realizo las operaciones el promedio deberia dar 7, si promedio 10 y 4: padrino_quickstart" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.calculadora cuando realizo las operaciones la resta deberia dar 9 si resto 11 y 2: padrino_quickstart" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.calculadora cuando realizo las operaciones: padrino_quickstart" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.calculadora cuando realizo las operaciones la suma deberia dar 5 si sumo 2 y 3: padrino_quickstart" />
       </list>
     </recent_temporary>
   </component>
@@ -572,9 +534,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3288889" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3288889" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -594,6 +556,14 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -603,7 +573,9 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -695,34 +667,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/calculadora_spec.rb">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/operaciones_basicas_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/calculadora.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/operaciones_basicas.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.61702126">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/operaciones_basicas_steps.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/calculadora.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78723407">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.5744681">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/calculadora_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82978725">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
         </state>
       </provider>
