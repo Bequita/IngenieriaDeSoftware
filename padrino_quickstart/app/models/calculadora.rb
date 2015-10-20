@@ -14,8 +14,12 @@ class Calculadora
     @cantidad_operaciones += 1
   end
 
-  def promedio(arg1, arg2)
+  def promedio(arg1)
     @cantidad_operaciones += 1
+  end
+
+  def resetear_memoria
+    @cantidad_operaciones = 0
   end
 
 end

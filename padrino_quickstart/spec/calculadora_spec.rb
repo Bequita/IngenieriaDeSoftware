@@ -31,4 +31,18 @@ describe 'calculadora' do
 
   end
 
+  context 'cuando reseteo la memoria de la calculadora, la cantidad de operaciones deberia ser 0' do
+
+    it 'deberia ser 0 despues del reseteo' do
+      calculadora.sumar(1,2)
+      calculadora.restar(1,2)
+      calculadora.promedio(6)
+      expect(calculadora.cantidad_operaciones).to eq 3
+
+      calculadora.resetear_memoria
+      expect(calculadora.cantidad_operaciones).to eq 0
+    end
+
+  end
+
 end
