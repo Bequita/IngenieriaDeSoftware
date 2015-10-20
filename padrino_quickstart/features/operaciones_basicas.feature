@@ -1,6 +1,8 @@
 Feature: Operaciones basicas
 
-  @wip
+  Background:
+    Given una calculadora
+
   Scenario: suma
     Given un operando es 1
     And   otro operando es 2

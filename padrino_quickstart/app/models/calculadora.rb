@@ -8,10 +8,14 @@ class Calculadora
 
   def sumar(arg1, arg2)
     @cantidad_operaciones += 1
+
+    arg1 + arg2
   end
 
   def restar(arg1, arg2)
     @cantidad_operaciones += 1
+
+    arg1 - arg2
   end
 
   def promedio(arg1)
