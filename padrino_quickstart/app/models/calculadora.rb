@@ -10,4 +10,12 @@ class Calculadora
     @cantidad_operaciones += 1
   end
 
+  def restar(arg1, arg2)
+    @cantidad_operaciones += 1
+  end
+
+  def promedio(arg1, arg2)
+    @cantidad_operaciones += 1
+  end
+
 end

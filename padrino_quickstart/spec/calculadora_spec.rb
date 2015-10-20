@@ -3,7 +3,7 @@ require_relative '../app/models/calculadora'
 
 describe 'calculadora' do
 
-  calculadora = Calculadora.new
+  let(:calculadora) {Calculadora.new}
 
   context 'cuando se crea una calculadora' do
 
@@ -15,9 +15,18 @@ describe 'calculadora' do
 
   context 'cuando hago operaciones con la calculadora deberia incrementarse el contador' do
 
-    it 'deberia incrementarse en 1 cuando sumo' do
+    it 'deberia incrementarse cuando sumo' do
       calculadora.sumar(4,5)
       expect(calculadora.cantidad_operaciones).to eq 1
+      calculadora.sumar(4,5)
+      expect(calculadora.cantidad_operaciones).to eq 2
+    end
+
+    it 'deberia incrementarse cuando resto' do
+      calculadora.restar(9,4)
+      expect(calculadora.cantidad_operaciones).to eq 1
+      calculadora.restar(9,4)
+      expect(calculadora.cantidad_operaciones).to eq 2
     end
 
   end
