@@ -11,3 +11,7 @@ cd ..
 cd batalla-naval
 bundle install
 bundle exec rake
+cd ..
+cd padrino_quickstart
+bundle install
+bundle exec rake
