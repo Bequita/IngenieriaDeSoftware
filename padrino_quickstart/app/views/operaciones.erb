@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+</head>
+<body id="esconder">
+<form method="POST" action="sumar" id="formulario_calculadora">
+  <%= csrf_token_field %>
+  <label>Ingrese operandos:</label>
+  <select id="lista" name="valorlista" onclick="funcion1()">
+    <option selected="" value="">- Select -</option>
+    <option value="sumar">Sumar</option>
+    <option value="restar">Restar</option>
+  </select>
+  <input id="op1" type="number" name="operando1" style="visibility: hidden"/>
+  <input id="op2" type="number" name="operando2" style="visibility: hidden"/>
+  <input type="submit" id="sumar"/>
+</form>
+<div id="resultado">El resultado de tu suma es: <%= @resultado %></div>
+
+<div id="test"></div>
+</body>
+</html>
+
+<script>
+    function mostrar() {
+        var res = document.getElementById("resultado");
+        res.style.visibility = "visible";
+    }
+
+    function funcion1() {
+        document.getElementById("op1").style.visibility = "visible";
+        document.getElementById("op2").style.visibility = "visible";
+    }
+</script>

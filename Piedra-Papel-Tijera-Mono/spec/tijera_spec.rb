@@ -27,4 +27,12 @@ describe 'tijera' do
     expect(tijera.contra(tijera)).to eq :EMPATA
   end
 
+  # it 'PRUEBA A BORRAR' do
+  #   piedra.class.send(:define_method, :nuevo, Proc.new { | a | a+1 })
+  #
+  #   puts piedra.nuevo(3)
+  #
+  # end
+
+
 end

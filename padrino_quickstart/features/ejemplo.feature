@@ -1,4 +1,3 @@
-@wip
 Feature: ejemplo
 
   Scenario: ejemplo1

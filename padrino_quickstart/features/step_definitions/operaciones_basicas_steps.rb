@@ -1,27 +1,19 @@
-Given(/^una calculadora$/) do
-  @calculadora = Calculadora.new
+Given(/^voy a la pagina sumar$/) do
+  visit 'sumar'
 end
 
 Given(/^un operando es (\d+)$/) do |arg1|
-  @operando_1 = arg1.to_i
+  fill_in 'op1', with: arg1
 end
 
 Given(/^otro operando es (\d+)$/) do |arg1|
-  @operando_2 = arg1.to_i
+  fill_in 'op2', with: arg1
 end
 
 When(/^los sumo$/) do
-  @resultado = @calculadora.sumar(@operando_1, @operando_2)
+  click_button('sumar')
 end
 
 Then(/^el resultado es (\d+)$/) do |arg1|
-  expect(@resultado).to eq arg1.to_i
-end
-
-When(/^los resto$/) do
-  @resultado = @calculadora.restar(@operando_1, @operando_2)
-end
-
-When(/^los promedio$/) do
-  @resultado = @calculadora.promedio([@operando_1, @operando_2])
+  expect(page).to have_content("El resultado de tu suma es: #{arg1}")
 end
