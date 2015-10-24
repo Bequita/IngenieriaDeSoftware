@@ -2,15 +2,18 @@ Given(/^no hice operaciones$/) do
 end
 
 Given(/^hago una suma$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  fill_in 'op1_suma', with: 1
+  fill_in 'op2_suma', with: 2
+  click_button('sumar')
 end
 
 Given(/^hago una resta$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  fill_in 'op1_resta', with: 3
+  fill_in 'op2_resta', with: 4
+  click_button('restar')
 end
 
 Given(/^reseteo la memoria$/) do
-  pending # Write code here that turns the phrase above into concrete actions
 end
 
 When(/^consulto cantidad de operaciones realizadas$/) do
