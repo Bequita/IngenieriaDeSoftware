@@ -22,7 +22,7 @@ class Calculadora
     @cantidad_operaciones += 1
 
     acum = 0
-    arg1.each { |i| acum += i }
+    arg1.each { |i| acum += i.to_i }
     acum / arg1.size
   end
 

@@ -9,49 +9,44 @@ module Ejemplo
 
     calculadora = Calculadora.new
 
-    get 'hola' do
-      'hey! hola'
-    end
-    
-    get 'saludo' do
-      render 'saludo'
-    end
-
-    post 'saludo' do
-      session[:nombre] = params[:nombre]
-      @nombre = session[:nombre]
-      render 'saludo'
-    end
-
-    get 'asd' do
-      render 'sumar'
-    end
-
-    post 'asd' do
-      session[:operando1] = params[:operando1]
-      session[:operando2] = params[:operando2]
-      calculadora.class.send(:define_method, params[:valorlista].to_sym, Proc.new { |a, b| a + b })
-      @resultado = calculadora.sumar(session[:operando1].to_i, session[:operando2].to_i)
-      if(@resultado.eql? 5)
-        render 'sumar'
-      else
-        render 'prueba'
-      end
-    end
-
-    get 'sumar' do
-      render 'sumar'
+    get 'operaciones' do
+      render 'operaciones'
     end
 
     post 'sumar' do
       session[:oper1] = params[:operando1]
       session[:oper2] = params[:operando2]
-      @resultado = calculadora.sumar(session[:oper1].to_i,session[:oper2].to_i)
-      render 'sumar'
+      valor = calculadora.sumar(session[:oper1].to_i,session[:oper2].to_i)
+      @resultado = 'El resultado de la operacion es: ' + valor.to_s
+      render 'operaciones'
     end
 
+    post 'restar' do
+      session[:oper1] = params[:operando1]
+      session[:oper2] = params[:operando2]
+      valor = calculadora.restar(session[:oper1].to_i,session[:oper2].to_i)
+      @resultado = 'El resultado de la operacion es: ' + valor.to_s
+      render 'operaciones'
+    end
 
+    post 'promediar' do
+      session[:numeros] = params[:lista_numeros].split(',')
+      valor = calculadora.promedio(session[:numeros])
+      @resultado = 'El resultado de la operacion es: ' + valor.to_s
+      render 'operaciones'
+    end
 
+    post 'resetear' do
+      calculadora.resetear_memoria
+      @resultado = 'La cantidad de operaciones ha sido reseteada'
+      render 'operaciones'
+    end
+
+    post 'consultar' do
+      valor = calculadora.cantidad_operaciones
+      @resultado = 'La cantidad de operaciones realizadas fueron: ' + valor.to_s
+      render 'operaciones'
+    end
 
   end
 end

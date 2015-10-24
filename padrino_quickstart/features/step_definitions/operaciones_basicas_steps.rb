@@ -1,13 +1,13 @@
 Given(/^voy a la pagina sumar$/) do
-  visit 'sumar'
+  visit 'operaciones'
 end
 
 Given(/^un operando es (\d+)$/) do |arg1|
-  fill_in 'op1', with: arg1
+  fill_in 'op1_suma', with: arg1
 end
 
 Given(/^otro operando es (\d+)$/) do |arg1|
-  fill_in 'op2', with: arg1
+  fill_in 'op2_suma', with: arg1
 end
 
 When(/^los sumo$/) do
@@ -15,5 +15,5 @@ When(/^los sumo$/) do
 end
 
 Then(/^el resultado es (\d+)$/) do |arg1|
-  expect(page).to have_content("El resultado de tu suma es: #{arg1}")
+  expect(page).to have_content('El resultado de la operacion es: 3')
 end
