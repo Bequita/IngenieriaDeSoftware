@@ -14,6 +14,7 @@ Given(/^hago una resta$/) do
 end
 
 Given(/^reseteo la memoria$/) do
+  click_button('resetear')
 end
 
 When(/^consulto cantidad de operaciones realizadas$/) do

@@ -13,7 +13,6 @@ Feature: memoria de cantidad de operaciones
     When  consulto cantidad de operaciones realizadas
     Then  la cantidad de operaciones es 2
 
-  @wip
   Scenario: cuando reseteo la cantidad de operaciones vuelve a cero
     Given voy a la pagina operaciones
     And   hago una suma
