@@ -13,10 +13,28 @@ module Ejemplo
       render 'operaciones'
     end
 
+    post 'operar' do
+      operacion = params[:operacion]
+
+      if operacion.eql? 'promedio'
+        array_numeros = params[:lista_numeros].split(', ')
+        valor = calculadora.promedio(array_numeros)
+      else
+        valor1 = params[:operando1]
+        valor2 = params[:operando2]
+        valor = calculadora.send(operacion.to_sym, valor1.to_i, valor2.to_i)
+      end
+
+      @resultado = 'El resultado de la operacion es: ' + valor.to_s
+      render 'operaciones'
+    end
+
     post 'sumar' do
+      session[:sel] = params[:operacion]
+      print session[:sel].to_s
       session[:oper1] = params[:operando1]
       session[:oper2] = params[:operando2]
-      valor = calculadora.sumar(session[:oper1].to_i,session[:oper2].to_i)
+      valor = calculadora.(session[:oper1].to_i,session[:oper2].to_i)
       @resultado = 'El resultado de la operacion es: ' + valor.to_s
       render 'operaciones'
     end

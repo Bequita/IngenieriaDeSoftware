@@ -4,69 +4,56 @@
   <meta charset="utf-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
-<body id="esconder">
-<label>Seleccione la operacion a realizar</label>
-  <select id="lista" name="valorlista" onchange="mostrar(this)">
+<body>
+<form id="operaciones" method="POST" action="operar">
+  <%= csrf_token_field %>
+
+  <label>Seleccione la operacion a realizar</label>
+  <select id="lista" name="operacion" onchange="mostrar(this)">
     <option selected="" value="">- Select -</option>
     <option value="sumar">Sumar</option>
     <option value="restar">Restar</option>
-    <option value="promediar">Promedio</option>
-    <option value="resetear">Resetear Memoria</option>
+    <option value="promedio">Promedio</option>
   </select>
 
-<form id="op_sumar" class="clase_suma" method="POST" action="sumar" style="visibility: hidden">
-  <%= csrf_token_field %>
-  <label class="clase_suma" style="visibility: hidden">Ingrese operandos:</label>
-  <input id="op1_suma" type="number" name="operando1"/>
-  <input id="op2_suma" type="number" name="operando2"/>
-  <input type="submit" id="sumar" value="Sumar"/>
-</form>
+  <div class="clase_sumores">
+    <label>Ingrese operandos:</label>
+    <input id="op1" type="number" name="operando1"/>
+    <input id="op2" type="number" name="operando2"/>
+    <input type="submit" id="operar" value="Operar"/>
+  </div>
 
-<form id="op_restar" class="clase_resta" method="POST" action="restar" style="visibility: hidden">
-  <%= csrf_token_field %>
-  <label class="clase_resta" style="visibility: hidden">Ingrese operandos:</label>
-  <input id="op1_resta" type="number" name="operando1"/>
-  <input id="op2_resta" type="number" name="operando2"/>
-  <input type="submit" id="restar" value="Restar"/>
-</form>
+  <div class="clase_promedio">
+    <label>Ingrese los numeros a promediar de a uno: </label>
+    <input id="num" type="number" name="numero"/>
+    <input id="lista_num" name="lista_numeros"/>
+    <button id="agregar_num" type="button">Agregar valor a promediar</button>
+    <input type="submit" id="promediar" value="Promediar"/>
+  </div>
 
-<form id="op_promediar" class="clase_promedio" method="POST" action="promediar" style="visibility: hidden;">
-  <%= csrf_token_field %>
-  <label class="clase_promedio" style="visibility: hidden;">Ingrese los numeros a promediar de a uno: </label>
-  <input id="num" type="number" name="numero"/>
-  <input id="lista_num" name="lista_numeros"/>
-  <button id="agregar_num" type="button">Agregar valor a promediar</button>
-  <input type="submit" id="promediar" value="Promediar"/>
 </form>
 
 <form id="op_resetear" method="POST">
   <%= csrf_token_field %>
-  <input type="submit" id="resetear" value="Resetear Memoria" style="visibility: hidden;" formaction="resetear"/>
-  <input type="submit" id="consultar_operaciones" value="Consultar Cantidad Operaciones Realizadas" style="visibility: hidden;" formaction="consultar"/>
+  <input type="submit" id="resetear" value="Resetear Memoria" formaction="resetear"/>
+  <input type="submit" id="consultar_operaciones" value="Consultar Cantidad Operaciones Realizadas" formaction="consultar"/>
 </form>
 
 <div id="resultado"><%= @resultado %></div>
 
 <script>
+
+    $('.clase_sumores').hide();
+    $('.clase_promedio').hide();
+
     function mostrar(arg) {
-        if(arg.value == "sumar") {
-            $('.clase_suma').each(function() {
-                this.style.visibility = "visible";
-            });
-        }
-        else if(arg.value == "restar") {
-            $('.clase_resta').each(function() {
-                this.style.visibility = "visible";
-            });
-        }
-        else if(arg.value == "promediar") {
-            $('.clase_promedio').each(function() {
-                this.style.visibility = "visible";
-            });
+        if (arg.value == "sumar" || arg.value == "restar") {
+            $('.clase_sumores').show();
+            $('.clase_promedio').hide();
         }
         else {
-            $('#resetear').attr("style", "visibility: visible");
-            $('#consultar_operaciones').attr("style", "visibility: visible");
+            $('.clase_promedio').show();
+            $('.clase_sumores').hide();
         }
     }
 

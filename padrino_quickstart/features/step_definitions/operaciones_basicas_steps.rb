@@ -1,21 +1,24 @@
-Given(/^voy a la pagina operaciones$/) do
+Given(/^voy a la pagina operaciones y selecciono suma$/) do
   visit 'operaciones'
+  select('Sumar', from: 'operacion')
 end
 
-Given(/^un operando suma es (\d+)$/) do |arg1|
-  fill_in 'op1_suma', with: arg1
+Given(/^voy a la pagina operaciones y selecciono resta$/) do
+  visit 'operaciones'
+  select('Restar', from: 'operacion')
 end
 
-Given(/^otro operando suma es (\d+)$/) do |arg1|
-  fill_in 'op2_suma', with: arg1
+Given(/^voy a la pagina operaciones y selecciono promedio$/) do
+  visit 'operaciones'
+  select('Promedio', from: 'operacion')
 end
 
-Given(/^un operando resta es (\d+)$/) do |arg1|
-  fill_in 'op1_resta', with: arg1
+Given(/^un operando es (\d+)$/) do |arg1|
+  fill_in 'op1', with: arg1
 end
 
-Given(/^otro operando resta es (\d+)$/) do |arg1|
-  fill_in 'op2_resta', with: arg1
+Given(/^otro operando es (\d+)$/) do |arg1|
+  fill_in 'op2', with: arg1
 end
 
 Given(/^un operando a promediar es (\d+)$/) do |arg1|
@@ -28,11 +31,11 @@ Given(/^otro operando a  promediar es (\d+)$/) do |arg1|
 end
 
 When(/^los sumo$/) do
-  click_button('sumar')
+  click_button('operar')
 end
 
 When(/^los resto$/) do
-  click_button('restar')
+  click_button('operar')
 end
 
 When(/^los promedio$/) do

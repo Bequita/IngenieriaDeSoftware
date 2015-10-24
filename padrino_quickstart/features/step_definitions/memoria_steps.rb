@@ -1,16 +1,22 @@
+Given(/^voy a la pagina operaciones$/) do
+  visit 'operaciones'
+end
+
 Given(/^no hice operaciones$/) do
 end
 
 Given(/^hago una suma$/) do
-  fill_in 'op1_suma', with: 1
-  fill_in 'op2_suma', with: 2
-  click_button('sumar')
+  select('Sumar', from: 'operacion')
+  fill_in 'op1', with: 1
+  fill_in 'op2', with: 2
+  click_button('operar')
 end
 
 Given(/^hago una resta$/) do
-  fill_in 'op1_resta', with: 3
-  fill_in 'op2_resta', with: 4
-  click_button('restar')
+  select('Sumar', from: 'operacion')
+  fill_in 'op1', with: 3
+  fill_in 'op2', with: 4
+  click_button('operar')
 end
 
 Given(/^reseteo la memoria$/) do
