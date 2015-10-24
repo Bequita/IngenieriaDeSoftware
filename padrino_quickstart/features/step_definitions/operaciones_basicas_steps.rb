@@ -15,5 +15,5 @@ When(/^los sumo$/) do
 end
 
 Then(/^el resultado es (\d+)$/) do |arg1|
-  expect(page).to have_content('El resultado de la operacion es: 3')
+  expect(page).to have_content("El resultado de la operacion es: #{arg1}")
 end
