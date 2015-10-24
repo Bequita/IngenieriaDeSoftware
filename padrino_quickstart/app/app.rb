@@ -30,8 +30,10 @@ module Ejemplo
     end
 
     post 'promediar' do
-      session[:numeros] = params[:lista_numeros].split(',')
-      valor = calculadora.promedio(session[:numeros])
+      session[:numeros] = params[:lista_numeros]
+      array_numeros = session[:numeros]
+      array_numeros = array_numeros.split(', ')
+      valor = calculadora.promedio(array_numeros)
       @resultado = 'El resultado de la operacion es: ' + valor.to_s
       render 'operaciones'
     end

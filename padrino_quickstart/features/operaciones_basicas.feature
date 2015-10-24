@@ -14,10 +14,9 @@ Feature: Operaciones basicas
     When  los resto
     Then  el resultado es 1
 
-  @wip
   Scenario: promedio
     Given voy a la pagina operaciones
     And   un operando a promediar es 10
-    And   otro operando es 4
+    And   otro operando a  promediar es 4
     When  los promedio
     Then  el resultado es 7
