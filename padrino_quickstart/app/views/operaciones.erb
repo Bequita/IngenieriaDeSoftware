@@ -8,17 +8,19 @@
           background: bisque;
       }
 
+
+
       h1 {
           font-family: Monaco, "Andale Mono";
           position: relative;
-          left: 30%;
+          left: 35%;
           color: chocolate;
       }
 
       h3 {
           font-family: Monaco, "Andale Mono";
           position: relative;
-          left: 30%;
+          left: 35%;
           color: chartreuse;
       }
 
@@ -42,6 +44,26 @@
           padding: 15px;
           border-spacing: 5px;
       }
+
+      .selec {
+          position: relative;
+          left: 38%;
+      }
+
+      .clase_sumores {
+          position: relative;
+          left: 60%;
+      }
+
+      .clase_promedio {
+          position: relative;
+          left: 15%;
+      }
+
+      .botones_memoria {
+          position: relative;
+          left: 35%;
+      }
   </style>
 </head>
 <body>
@@ -54,14 +76,16 @@
   <table>
 
     <tr>
-      <td><label>Seleccione la operacion a realizar</label></td>
       <td>
+        <div class="selec">
+        <label>Seleccione la operacion a realizar</label>
         <select id="lista" name="operacion" onchange="mostrar(this)">
           <option selected="" value="">- Select -</option>
           <option value="sumar">Sumar</option>
           <option value="restar">Restar</option>
           <option value="promedio">Promedio</option>
         </select>
+        </div>
       </td>
     </tr>
 
@@ -95,8 +119,10 @@
 
 <form id="op_resetear" method="POST">
   <%= csrf_token_field %>
+  <div class="botones_memoria">
   <input type="submit" id="resetear" value="Resetear Memoria" formaction="resetear"/>
   <input type="submit" id="consultar_operaciones" value="Consultar Cantidad Operaciones Realizadas" formaction="consultar"/>
+  </div>
 </form>
 
 <br>
