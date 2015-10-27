@@ -23,7 +23,12 @@ class Calculadora
 
     acum = 0
     arg1.each { |i| acum += i.to_i }
-    acum / arg1.size
+
+    begin
+      acum / arg1.size
+    rescue Exception
+      'fallo'
+    end
   end
 
   def resetear_memoria

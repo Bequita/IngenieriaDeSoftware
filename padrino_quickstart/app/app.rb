@@ -25,35 +25,12 @@ module Ejemplo
         valor = calculadora.send(operacion.to_sym, valor1.to_i, valor2.to_i)
       end
 
-      @resultado = 'El resultado de la operacion es: ' + valor.to_s
-      render 'operaciones'
-    end
-
-    post 'sumar' do
-      session[:sel] = params[:operacion]
-      print session[:sel].to_s
-      session[:oper1] = params[:operando1]
-      session[:oper2] = params[:operando2]
-      valor = calculadora.(session[:oper1].to_i,session[:oper2].to_i)
-      @resultado = 'El resultado de la operacion es: ' + valor.to_s
-      render 'operaciones'
-    end
-
-    post 'restar' do
-      session[:oper1] = params[:operando1]
-      session[:oper2] = params[:operando2]
-      valor = calculadora.restar(session[:oper1].to_i,session[:oper2].to_i)
-      @resultado = 'El resultado de la operacion es: ' + valor.to_s
-      render 'operaciones'
-    end
-
-    post 'promediar' do
-      session[:numeros] = params[:lista_numeros]
-      array_numeros = session[:numeros]
-      array_numeros = array_numeros.split(', ')
-      valor = calculadora.promedio(array_numeros)
-      @resultado = 'El resultado de la operacion es: ' + valor.to_s
-      render 'operaciones'
+      if !valor.eql? 'fallo'
+        @resultado = 'El resultado de la operacion es: ' + valor.to_s
+        render 'operaciones'
+      else
+        'La division por 0 no es posible'
+      end
     end
 
     post 'resetear' do

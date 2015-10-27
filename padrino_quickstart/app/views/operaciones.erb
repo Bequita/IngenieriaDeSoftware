@@ -3,35 +3,95 @@
 <head>
   <meta charset="utf-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <style>
+      body {
+          background: bisque;
+      }
+
+      h1 {
+          font-family: Monaco, "Andale Mono";
+          position: relative;
+          left: 30%;
+          color: chocolate;
+      }
+
+      h3 {
+          font-family: Monaco, "Andale Mono";
+          position: relative;
+          left: 30%;
+          color: chartreuse;
+      }
+
+      label {
+          font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+          color: chocolate;
+      }
+
+      input {
+          padding: 10px;
+          border: solid 1px #dcdcdc;
+          transition: box-shadow 0.3s, border 0.3s;
+      }
+
+      input, :focus {
+          border: solid 1px #707070;
+          box-shadow: 0 0 5px 1px #969696;
+      }
+
+      table {
+          padding: 15px;
+          border-spacing: 5px;
+      }
+  </style>
 </head>
 <body>
+
+<h1>Great Calculator Online ! ! !</h1>
+
 <form id="operaciones" method="POST" action="operar">
   <%= csrf_token_field %>
 
-  <label>Seleccione la operacion a realizar</label>
-  <select id="lista" name="operacion" onchange="mostrar(this)">
-    <option selected="" value="">- Select -</option>
-    <option value="sumar">Sumar</option>
-    <option value="restar">Restar</option>
-    <option value="promedio">Promedio</option>
-  </select>
+  <table>
 
-  <div class="clase_sumores">
-    <label>Ingrese operandos:</label>
-    <input id="op1" type="number" name="operando1"/>
-    <input id="op2" type="number" name="operando2"/>
-    <input type="submit" id="operar" value="Operar"/>
-  </div>
+    <tr>
+      <td><label>Seleccione la operacion a realizar</label></td>
+      <td>
+        <select id="lista" name="operacion" onchange="mostrar(this)">
+          <option selected="" value="">- Select -</option>
+          <option value="sumar">Sumar</option>
+          <option value="restar">Restar</option>
+          <option value="promedio">Promedio</option>
+        </select>
+      </td>
+    </tr>
 
-  <div class="clase_promedio">
-    <label>Ingrese los numeros a promediar de a uno: </label>
-    <input id="num" type="number" name="numero"/>
-    <input id="lista_num" name="lista_numeros"/>
-    <button id="agregar_num" type="button">Agregar valor a promediar</button>
-    <input type="submit" id="promediar" value="Promediar"/>
-  </div>
+    <tr>
+      <td>
+        <div class="clase_sumores">
+          <label>Ingrese operandos:</label>
+          <input id="op1" type="number" name="operando1"/>
+          <input id="op2" type="number" name="operando2"/>
+          <input type="submit" id="operar" value="Operar"/>
+        </div>
+      </td>
+    </tr>
 
+    <tr>
+      <td>
+        <div class="clase_promedio">
+          <label>Ingrese los numeros a promediar de a uno: </label>
+          <input id="num" type="number" name="numero"/>
+          <input id="lista_num" name="lista_numeros"/>
+          <button id="agregar_num" type="button">Agregar valor a promediar</button>
+          <input type="submit" id="promediar" value="Promediar"/>
+        </div>
+      </td>
+    </tr>
+
+  </table>
 </form>
+
+<br/>
 
 <form id="op_resetear" method="POST">
   <%= csrf_token_field %>
@@ -39,7 +99,9 @@
   <input type="submit" id="consultar_operaciones" value="Consultar Cantidad Operaciones Realizadas" formaction="consultar"/>
 </form>
 
-<div id="resultado"><%= @resultado %></div>
+<br>
+
+<h3><div id="resultado"><%= @resultado %></div></h3>
 
 <script>
 
