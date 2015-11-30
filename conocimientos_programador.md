@@ -38,15 +38,19 @@ Este articulo abrio mi cabeza, al punto de hacer que me interese por un topico q
 
 ### Lo que todo programador C debe saber sobre Comportamiento Indefinido
 
-
+Esencial para cualquier programador de C, aunque dudo de la utilidad para cualquier otro perfil de programador. Sin embargo, no deja de ser un tema interesante para los que nos gusta adentrarnos en terrenos desconocidos. Mas alla de la optimizacion extrema del codigo, el entender de comportamiento indefinido sirve para entender el funcionamiento de nuestros lenguajes, y permite predecir muchas veces la funcionalidad y errores de las aplicaciones que hagamos con los mismos.
 
 ### Lo que todo programador debe saber sobre redes
 
 Si bien el articulo se enfoca mas en aquellos diseñadores de video-juegos, considero que hoy dia (como ya mencione anteriormente), la mayoria de las aplicaciones son (o involucran) web. Ergo, todos los programadores debemos saber minimamente como funciona la red hoy dia.
 
 ### Lo que todo programador debe saber sobre Strings
+
+Fundamental. Ya que de todos los tipos de datos nativos, los strings (creo yo) son uno de los mas poderosos. Y aqui voy a hacer una separacion del articulo a mi opinion, ya que el mismo trata acerca de los strings en Java (y es logico, porque cada lenguaje tiene su manejo particular), pero el manejo de strings es necesario aprenderlo en cualquier lenguaje que uno maneje. Desde Ruby (donde podemos encontrar una alternativa a los strings inmutables, los symbols), hasta php (que al correr del lado del servidor, es sumamente util saber que manejo podemos hacer de los strings por si tenemos que, por ejemplo, que leer un archivo almacenado ahi).
+
 ### Lo que todo programador debe saber sobre seguridad informatica
 
+Repito: fundamental. Asi como las tecnologias avanzan, los ataques a las mismas tambien. Los hackers disponen de un arsenal de herramientas con las que antes no disponian tanto (ej.: internet), y al ser hoy dia la mayoria de las aplicaciones web, eso decanta en una ventaja para aquel que quiera tratar de vulnerabilizar un sitio. Es necesario aprender como hacer codigo seguro, que herramientas utilizar para medir y mermar las vulnerabilidades, y descubrir cuales son los puntos debiles de tus programas. Un articulo interesantisimo en verdad.
 
 ### Lo que todo programador tiene que saber sobre Numeros de Latencia 
 
